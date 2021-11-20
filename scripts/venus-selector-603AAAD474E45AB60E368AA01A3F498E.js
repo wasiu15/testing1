@@ -1,0 +1,1 @@
+function venusId(n){return $('*[data-venus-id="'+n+'"]:first')}

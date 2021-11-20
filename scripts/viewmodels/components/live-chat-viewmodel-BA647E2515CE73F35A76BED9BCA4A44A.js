@@ -1,0 +1,1 @@
+var liveChatViewModel=function(n){var t=this;t.chatLink=n.chatLink;t.liveChatLinkAriaLabel="Link to open a Live Chat session if you need help, or call 1-888-782-2224. The Live Chat session will open in a pop - up window within your current browser window. You may close the Live Chat pop - up by pressing the escape key."}

@@ -1,0 +1,1 @@
+var promotionsSummaryViewModel=function(n){var t=this;t.discountTotal=n.totalOrderDiscount;t.shouldShowPromotionsSummaryArea=ko.computed(function(){return t.discountTotal()>0});t.formattedDiscountTotal=ko.computed(function(){return"$"+t.discountTotal().toFixed(2)})}

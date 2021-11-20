@@ -1,0 +1,1 @@
+function registerToolTip(n){if(n){var t=$("#"+n.attr("aria-labelledby"));t&&(n.mouseover(function(){t.fadeIn(250)}),n.mouseout(function(){t.fadeOut(250)}))}}

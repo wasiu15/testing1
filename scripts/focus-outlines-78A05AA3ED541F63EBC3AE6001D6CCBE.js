@@ -1,0 +1,1 @@
+var TabKeyCode=9,allowFocus=!1;document.addEventListener("mousedown",function(){allowFocus=!1});document.addEventListener("keydown",function(n){n.keyCode===TabKeyCode&&(allowFocus=!0)});$("body").focusin(function(n){$(n.target).toggleClass("mouse-focus",!allowFocus)});$("body").focusout(function(n){$(n.target).removeClass("mouse-focus")})

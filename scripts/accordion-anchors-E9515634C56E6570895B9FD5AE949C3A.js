@@ -1,0 +1,1 @@
+function checkForAccordionUrlAnchor(){var t=$(location.hash),n;t&&(n=t.attr("data-target"),n&&$(n).collapse())}

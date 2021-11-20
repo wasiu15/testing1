@@ -1,0 +1,1725 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- Mirrored from www.venus.com/default.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Nov 2021 23:46:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head id="ctl00_htmlHead"><script type="text/javascript" language="javascript">var _vwo_code=(function(){var account_id=134444,settings_tolerance=2000,library_tolerance=2500,use_existing_jquery=false,f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('http://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();</script><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"3ca8cca6e6","applicationID":"51347063","transactionName":"MQRTMEAACERUVhZQXQhOcDdiTgJSU1QXVUZIAEIUSg==","queueTime":0,"applicationTime":34,"agent":"","atts":"HUNQRggaRFlHGxZLWxYoVUYIQ1AGVgFbWwAAVlQFVlkAA1QXHxUQE0MLHxAoFXZFRUADVAcNQgFPHA=="}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"VQAHV1FaDRAFVVJWAAEBVQ==",licenseKey:"3ca8cca6e6",applicationID:"51347063"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(32),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(33),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError";if(!c.disabled){var l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(14),t(13),"addEventListener"in window&&t(7),c.xhrWrappable&&t(15),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})}},{}],3:[function(t,e,n){var r=t("loader");r.disabled||(r.features.ins=!0)},{}],4:[function(t,e,n){function r(){U++,L=g.hash,this[u]=y.now()}function o(){U--,g.hash!==L&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable&&!y.disabled){var x=t(11),b=t(12),E=t(9),R=t(7),O=t(14),T=t(8),P=t(15),S=t(10),M=t("ee"),N=M.get("tracer"),C=t(23);t(17),y.features.spa=!0;var L,U=0;M.on(u,r),b.on(p,r),S.on(p,r),M.on(d,o),b.on(l,o),S.on(l,o),M.buffer([u,d,"xhr-resolved"]),R.buffer([u]),O.buffer(["setTimeout"+c,"clearTimeout"+s,u]),P.buffer([u,"new-xhr","send-xhr"+s]),T.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),N.buffer([u,"no-"+u]),S.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,m+s),a(T,m+"-done"),a(S,"new-jsonp"),a(S,"jsonp-end"),a(S,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,C(!0)),w[v]("load",i,C(!0)),w[v]("popstate",function(){i(0,U>1)},C(!0))}},{}],5:[function(t,e,n){function r(){var t=new PerformanceObserver(function(t,e){var n=t.getEntries();s(v,[n])});try{t.observe({entryTypes:["resource"]})}catch(e){}}function o(t){if(s(v,[window.performance.getEntriesByType(w)]),window.performance["c"+p])try{window.performance[h](m,o,!1)}catch(t){}else try{window.performance[h]("webkit"+m,o,!1)}catch(t){}}function i(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var a=t("ee"),s=t("handle"),c=t(14),f=t(13),u=t(6),d=t(23),p="learResourceTimings",l="addEventListener",h="removeEventListener",m="resourcetimingbufferfull",v="bstResource",w="resource",g="-start",y="-end",x="fn"+g,b="fn"+y,E="bstTimer",R="pushState",O=t("loader");if(!O.disabled){O.features.stn=!0,t(9),"addEventListener"in window&&t(7);var T=NREUM.o.EV;a.on(x,function(t,e){var n=t[0];n instanceof T&&(this.bstStart=O.now())}),a.on(b,function(t,e){var n=t[0];n instanceof T&&s("bst",[n,e,this.bstStart,O.now()])}),c.on(x,function(t,e,n){this.bstStart=O.now(),this.bstType=n}),c.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),this.bstType])}),f.on(x,function(){this.bstStart=O.now()}),f.on(b,function(t,e){s(E,[e,this.bstStart,O.now(),"requestAnimationFrame"])}),a.on(R+g,function(t){this.time=O.now(),this.startPath=location.pathname+location.hash}),a.on(R+y,function(t){s("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),u()?(s(v,[window.performance.getEntriesByType("resource")]),r()):l in window.performance&&(window.performance["c"+p]?window.performance[l](m,o,d(!1)):window.performance[l]("webkit"+m,o,d(!1))),document[l]("scroll",i,d(!1)),document[l]("keypress",i,d(!1)),document[l]("click",i,d(!1))}}},{}],6:[function(t,e,n){e.exports=function(){return"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver}},{}],7:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],8:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(33),a=t(32);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],9:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],10:[function(t,e,n){function r(t){function e(){f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}function n(){f.emit("jsonp-error",[],l),f.emit("jsonp-end",[],l),t.removeEventListener("load",e,c(!1)),t.removeEventListener("error",n,c(!1))}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var d=s(a),p="function"==typeof d.parent[d.key];if(p){var l={};u.inPlace(d.parent,[d.key],"cb-",l),t.addEventListener("load",e,c(!1)),t.addEventListener("error",n,c(!1)),f.emit("new-jsonp",[t.src],l)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(d);return e?e[1]:null}function a(t,e){var n=t.match(l),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(p);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t(23),f=t("ee").get("jsonp"),u=t("wrap-function")(f);if(e.exports=f,o()){var d=/[?&](?:callback|cb)=([^&#]+)/,p=/(.*)\.([^.]+)/,l=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?u.inPlace(Node.prototype,h,"dom-"):(u.inPlace(HTMLElement.prototype,h,"dom-"),u.inPlace(HTMLHeadElement.prototype,h,"dom-"),u.inPlace(HTMLBodyElement.prototype,h,"dom-")),f.on("dom-start",function(t){r(t[0])})}},{}],11:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],12:[function(t,e,n){function r(t){var e=i.context(),n=s(t,"executor-",e,null,!1),r=new f(n);return i.context(r).getCtx=function(){return e},r}var o=t("wrap-function"),i=t("ee").get("promise"),a=t("ee").getOrSetContext,s=o(i),c=t(32),f=NREUM.o.PR;e.exports=i,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){i.emit("propagate",[null,!o],a,!1,!1),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var a=e.apply(f,arguments),s=f.resolve(a);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&i.emit("propagate",[t,!0],n,!1,!1),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),o.wrapInPlace(f.prototype,"then",function(t){return function(){var e=this,n=o.argsToArray.apply(this,arguments),r=a(e);r.promise=e,n[0]=s(n[0],"cb-",r,null,!1),n[1]=s(n[1],"cb-",r,null,!1);var c=t.apply(this,n);return r.nextPromise=c,i.emit("propagate",[e,!0],c,!1,!1),c}}),i.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this,null,!1),t[1]=s(t[1],"resolve-",this,null,!1)}),i.on("executor-err",function(t,e,n){t[1](n)}),i.on("cb-end",function(t,e,n){i.emit("propagate",[n,!0],this.nextPromise,!1,!1)}),i.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=i.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],13:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],14:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],15:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){x.push(t),m&&(E?E.then(a):w?w(a):(R=-R,O.data=R))}function a(){for(var t=0;t<x.length;t++)r([],x[t]);x.length&&(x=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(7);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=t(23),l=NREUM.o,h=l.XHR,m=l.MO,v=l.PR,w=l.SI,g="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],x=[];e.exports=u;var b=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(g,o,p(!1))}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(h,b),b.prototype=h.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),m){var E=v&&v.resolve();if(!w&&!v){var R=1,O=document.createTextNode(R);new m(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===g||a()})},{}],16:[function(t,e,n){function r(t){if(!s(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=l.generateSpanId(),m=l.generateTraceId(),v=Date.now(),w={spanId:h,traceId:m,timestamp:v};return(t.sameOrigin||c(t)&&p())&&(w.traceContextParentHeader=o(h,m),w.traceContextStateHeader=i(h,v,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&c(t)&&d())&&(w.newrelicHeader=a(h,m,v,n,r,f)),w}function o(t,e){return"00-"+e+"-"+t+"-01"}function i(t,e,n,r,o){var i=0,a="",s=1,c="",f="";return o+"@nr="+i+"-"+s+"-"+n+"-"+r+"-"+t+"-"+a+"-"+c+"-"+f+"-"+e}function a(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function s(t){return f()&&c(t)}function c(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var o=h(n.allowed_origins[r]);if(t.hostname===o.hostname&&t.protocol===o.protocol&&t.port===o.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function p(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var l=t(29),h=t(18);e.exports={generateTracePayload:r,shouldGenerateTrace:s}},{}],17:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,s("xhr",[e,n,this.startTime,this.endTime,"xhr"],this))}}function o(t,e){var n=c(e),r=t.params;r.hostname=n.hostname,r.port=n.port,r.protocol=n.protocol,r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=n,t.sameOrigin=n.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable&&!a.disabled){var s=t("handle"),c=t(18),f=t(16).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(24),m=t(22),v=t(19),w=t(23),g=NREUM.o.REQ,y=window.XMLHttpRequest;a.features.xhr=!0,t(15),t(8),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,e.params=this.params||{},e.metrics=this.metrics||{},t.addEventListener("load",function(n){i(e,t)},w(!1)),h&&(h>34||h<10)||t.addEventListener("progress",function(t){e.lastSize=t.loaded},w(!1))}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<p;s++)e.addEventListener(d[s],this.listener,w(!1))}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("xhr-resolved",function(){this.endTime=a.now()}),u.on("addEventListener-end",function(t,e){e instanceof y&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof y&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof y&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=c(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var o=f(this.parsedOrigin);if(o&&(o.newrelicHeader||o.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var i={};for(var a in r)i[a]=r[a];i.headers=new Headers(r.headers||{}),e(i.headers,o)&&(this.dt=o),t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&e(t[0].headers,o)&&(this.dt=o)}),u.on("fetch-start",function(t,e){this.params={},this.metrics={},this.startTime=a.now(),this.dt=e,t.length>=1&&(this.target=t[0]),t.length>=2&&(this.opts=t[1]);var n,r=this.opts||{},i=this.target;"string"==typeof i?n=i:"object"==typeof i&&i instanceof g?n=i.url:window.URL&&"object"==typeof i&&i instanceof URL&&(n=i.href),o(this,n);var s=(""+(i&&i instanceof g&&i.method||r.method||"GET")).toUpperCase();this.params.method=s,this.txSize=m(r.body)||0}),u.on("fetch-done",function(t,e){this.endTime=a.now(),this.params||(this.params={}),this.params.status=e?e.status:0;var n;"string"==typeof this.rxSize&&this.rxSize.length>0&&(n=+this.rxSize);var r={txSize:this.txSize,rxSize:n,duration:a.now()-this.startTime};s("xhr",[this.params,r,this.startTime,this.endTime,"fetch"],this)})}},{}],18:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("index.html")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],19:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(22);e.exports=r},{}],20:[function(t,e,n){function r(){}function o(t,e,n,r){return function(){return u.recordSupportability("API/"+e+"/called"),i(t+e,[f.now()].concat(s(arguments)),n?null:this,r),n?void 0:this}}var i=t("handle"),a=t(32),s=t(33),c=t("ee").get("tracer"),f=t("loader"),u=t(25),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",h=l+"ixn-";a(p,function(t,e){d[e]=o(l,e,!0,"api")}),d.addPageAction=o(l,"addPageAction",!0),d.setCurrentRouteName=o(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=o(h,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),u.recordSupportability("API/noticeError/called"),i("err",[t,f.now(),!1,e])}},{}],21:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],22:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],23:[function(t,e,n){var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(i){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],24:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],25:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return i("storeMetric",n,null,"api"),n}function o(t,e){var n=[s,t,{name:t},e];return i("storeEventMetrics",n,null,"api"),n}var i=t("handle"),a="sm",s="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:s},recordSupportability:r,recordCustom:o}},{}],26:[function(t,e,n){function r(){return s.exists&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-a}function o(){return i}var i=(new Date).getTime(),a=i,s=t(34);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=o},{}],27:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],28:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?p("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&p("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(c&&c<r.startTime)return;p("lcp",[r])}}function i(t){t.getEntries().forEach(function(t){t.hadRecentInput||p("cls",[t])})}function a(t){if(t instanceof v&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),g=!0,p("timing",["fi",e,n])}}function s(t){"hidden"===t&&(c=l.now(),p("pageHide",[c]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,f,u,d,p=t("handle"),l=t("loader"),h=t(31),m=t(23),v=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(w){}u=new PerformanceObserver(o);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(w){}d=new PerformanceObserver(i);try{d.observe({type:"layout-shift",buffered:!0})}catch(w){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(t){document.addEventListener(t,a,m(!1))})}h(s)}},{}],29:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){return a(16)}function i(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,o=window.crypto||window.msCrypto;o&&o.getRandomValues&&Uint8Array&&(n=o.getRandomValues(new Uint8Array(31)));for(var i=[],a=0;a<t;a++)i.push(e().toString(16));return i.join("")}e.exports={generateUuid:r,generateSpanId:o,generateTraceId:i}},{}],30:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],31:[function(t,e,n){function r(t){function e(){t(s&&document[s]?document[s]:document[i]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,o(!1))}var o=t(23);e.exports=r;var i,a,s;"undefined"!=typeof document.hidden?(i="hidden",a="visibilitychange",s="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",a="webkitvisibilitychange",s="webkitVisibilityState")},{}],32:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],33:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],34:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?f(t,c,a):a()}function n(n,r,o,i,a){if(a!==!1&&(a=!0),!l.aborted||i){t&&a&&t(n,r,o);for(var s=e(o),c=m(n),f=c.length,u=0;u<f;u++)c[u].apply(s,r);var p=d[y[n]];return p&&p.push([x,n,r,s]),s}}function i(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return p[t]=p[t]||o(n)}function w(t,e){l.aborted||u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:i,addEventListener:i,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:s,aborted:!1};return x}function i(t){return f(t,c,a)}function a(){return new r}function s(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",f=t("gos"),u=t(32),d={},p={},l=e.exports=o();e.exports.getOrSetContext=i,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=T.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();c(R,function(e,n){t[e]||(t[e]=n)});var n=a();s("mark",["onload",n+T.offset],null,"api"),s("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https:///")?r.src=t.agent:r.src=h+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function o(){"complete"===v.readyState&&i()}function i(){s("mark",["domContent",a()+T.offset],null,"api")}var a=t(26),s=t("handle"),c=t(32),f=t("ee"),u=t(30),d=t(27),p=t(21),l=t(23),h=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,w="addEventListener",g="attachEvent",y=m.XMLHttpRequest,x=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var E=""+location,R={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1212.min.js"},O=y&&x&&x[w]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:u,disabled:b};if(!b){t(20),t(28),v[w]?(v[w]("DOMContentLoaded",i,l(!1)),m[w]("load",r,l(!1))):(v[g]("onreadystatechange",o),m[g]("onload",r)),s("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,f){function nrWrapper(){var i,a,u,p;try{a=this,i=d(arguments),u="function"==typeof r?r(i,a):r||{}}catch(l){o([l,"",[i,a,c],u],t)}s(n+"start",[i,a,c],u,f);try{return p=e.apply(a,i)}catch(h){throw s(n+"err",[i,a,h],u,f),h}finally{s(n+"end",[i,a,p],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,i(e,nrWrapper,t),nrWrapper)}function r(t,e,r,o,i){r||(r="");var s,c,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)c=e[f],s=t[c],a(s)||(t[c]=n(s,u?c+r:r,o,c,i))}function s(n,r,i,a){if(!h||e){var s=h;h=!0;try{t.emit(n,r,i,e,a)}catch(c){o([c,n,r,i],t)}h=s}}return t||(t=u),n.inPlace=r,n.flag=p,n}function o(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function i(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(i){o([i],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function s(t,e){var n=e(t);return n[p]=t,i(t,n,u),n}function c(t,e,n){var r=t[e];t[e]=s(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(33),p="nr@original",l=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=s,e.exports.wrapInPlace=c,e.exports.argsToArray=f},{}]},{},["loader",2,17,5,3,4]);</script>
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="apple-itunes-app" content="app-id=1347821384">
+            <meta name="google-play-app" content="app-id=com.venus.venus">
+            <link rel="manifest" href="manifest.json">
+        <meta name="com.silverpop.brandeddomains" content="www.pages02.net,www.venus.com" /><meta name="com.silverpop.cothost" content="pod2.ibmmarketingcloud.com" /><link rel="canonical" href="index.html" /><title>
+	Women's Fashion | Clothing, Swimwear & Lingerie Store | VENUS
+</title><script>
+			window.lazySizesConfig = window.lazySizesConfig || {}; 
+			lazySizesConfig.expand = 20; 
+			lazySizesConfig.expFactor = 1.4; 
+			lazySizesConfig.loadMode = 0;  
+		</script>
+        <script src="scripts/lazysizes.min-322CB75F9AE568E4408731FC5317071F.js"></script>
+        <script>
+            lazySizes.init();
+        </script>
+        
+            <link rel="stylesheet" type="text/css" href="css/site000.min-81493BE05F5B83EF2032183C872AADB2.css">
+        
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="preload" href="font/HKGrotesk/HKGrotesk-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="font/HKGrotesk/HKGrotesk-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="font/HKGrotesk/HKGrotesk-Regular.woff" as="font" type="font/woff" crossorigin="anonymous">
+    
+            <script type="text/javascript" src="scripts/lib/jquery-3.6.0.min.js"></script>
+        
+    <script type="text/javascript">scriptName='/default.aspx';pageName='default.aspx';root='';cookieName='';searchtermclientid='searchterm_desktop'; searchsuggestionsclientid='ctl00_searchsuggest'; searchtermmobileclientid='searchterm_mobile'; searchsuggestionsmobileclientid='ctl00_searchSuggestMobile'; storeid=0;lblheadercartclientid='ctl00_lblheadercart';lblheadercartmobileclientid='ctl00_lblheadercartmobile';</script>
+    <script>
+        function getElement(id) {
+            return document.getElementById(id);
+        }
+    </script>
+    
+        <script type="text/javascript" src="../cdn.evgnet.com/beacon/venus/engage/scripts/evergage.min.js" async></script>
+    
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WM3NBPD');
+    </script>
+    <!-- End Google Tag Manager -->
+    
+    <style>
+	
+.hide{display:none!important}.col,.col-1,.col-10,.col-11,.col-12,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-auto,.col-lg,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-auto,.col-md,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-auto,.col-sm,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-auto,.col-xl,.col-xl-1,.col-xl-10,.col-xl-11,.col-xl-12,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-auto{padding-left:8px;padding-right:8px}.section-01{background:url(productimages/landing/home/20200910_R/a_home_responsive.jpg) no-repeat center;background-size:cover;height:400px;display:flex;align-items:center}.section-02{background:url(productimages/landing/home/20200910_R/b_home_responsive.jpg) no-repeat center;background-size:cover;height:400px;display:flex;justify-content:center;align-items:center}.section-03{background:url(productimages/landing/home/20200910_R/g_home_responsive.jpg) no-repeat center;background-size:cover;height:400px;display:flex;align-items:center}.section-banner{background-size:cover;display:flex;justify-content:center;align-items:center}.landing-content{margin:20px -20px;padding-bottom:20px}.banner-text{font-size:.87rem;letter-spacing:1px}.btn-primary-static{padding:12px 24px;display:inline-block}.btn-primary-static:hover{text-decoration:none}.cta-underline,.cta-underline-sm{letter-spacing:1px;margin:8px 0;text-decoration:underline;text-transform:uppercase;display:block}.cta-underline-sm{letter-spacing:.5px}.landing-content .col{padding-left:0;padding-right:0}.landing-content .h-XL{font-size:3rem;text-transform:uppercase;letter-spacing:4px}.landing-content .h-L{font-size:1.563rem;text-transform:uppercase;letter-spacing:2px;margin-top:40px}.landing-content .h-M{font-size:1.25rem;text-transform:uppercase;letter-spacing:2px}.landing-content .h-S{font-size:1rem;text-transform:uppercase;letter-spacing:2px}.vertical-center-parent{display:flex;justify-content:center;align-items:center}.img-across{text-align:center}.img-across img{margin:20px auto}.img-across .btn-primary{margin:8px auto}.landing-bg{position:relative}.landing-text-overlay{color:#252729;position:absolute}.landing-text-overlay-white{color:#fff;position:absolute}.landing-text-overlay-red{color:#db206e;position:absolute}.white{color:#fff}a.cta-underline.white:hover{color:#fff!important;opacity:.7!important}.centered{top:50%;left:50%;transform:translate(-50%,-50%)}.centered-left{top:50%;transform:translate(0,-50%)}.top-left{top:20%;transform:translate(0,-50%)}.landing-text-shadow{text-shadow:0 0 20px rgba(0,0,0,.75)}.btn-container{margin:16px}.btn-primary-static-white{background:#fff;color:#252729;box-shadow:0 1px 4px rgba(0,0,0,.5019607843137255)}.price-circle{border-radius:100px;color:#fff;display:flex;align-items:center;justify-content:center;position:absolute;background:#db206e;height:80px;width:80px;text-align:center;text-transform:uppercase;line-height:1}.price-circle.top-left{top:20px;left:20px}.price-circle.top-right{top:20px;right:20px}.linethrough{text-decoration:line-through;display:block}.landing-sale-price{display:block;font-size:1rem;font-weight:700;margin:6px auto}.ig_banner{padding-top:25px;padding-bottom:10px}.ig_banner img{width:100%;max-width:max-content;margin:auto}@media (min-width:768px){.cta-underline,.landing_container p{font-size:1rem}.cta-underline-sm{font-size:.756rem}.img-across img{margin:0 auto 16px}.img-6-across img{margin:0 auto 8px}.section-01,.section-02,.section-03{height:700px}}
+
+	
+</style>
+    <meta name="robots" content="index, follow" />
+	<meta name="Rating" content="General" />
+	<meta name="Language" content="en" />
+	<meta name="distribution" content="Global" />
+	<meta name="Copyright" content="ï¿½2021  Venus Fashion, Inc." />
+	<meta name="Classification" content="Retail" />
+	<meta name="Author" content="www.venus.com" />
+	<meta name="ROBOTS" content="NOODP,NOYDIR" />
+	<meta name="verify-v1" content="hVEba+j1JLkMhCcWh0gWICd+M5x8cPNKRQ7UJaaeOyo=" />
+    <meta name="msvalidate.01" content="36A3250CE151CE52745AF8D16C880F31" />
+
+	<meta name="description" content="Shop the best women&#39;s clothing store online. Dresses, swimwear, lingerie, jeans and much more. Trendy styles &amp; looks for any occasion. " />
+	<meta name="keywords" content="venus, women&#39;s fashion, fashion for women, fashion for women online, women&#39;s fashion online, online fashion for women, online women&#39;s fashion, shop women&#39;s fashion, shop for women&#39;s fashion" /></head>
+<body>
+
+    <script type="text/javascript" src="includes/scripts/site.min-432CAA260DC5745E3872A9ABC62BE271.js"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe title="Google Tag Manager" src="https://www.googletagmanager.com/ns.html?id=GTM-WM3NBPD"
+            height="0" width="0" style="display: none; visibility: hidden">
+    </iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<form name="aspnetForm" method="post" action="https://www.venus.com/default.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="A5XNR/ergYXAJ8zmuRANpOZ1vz+aLKkHwOiF4BDyMQPDwM2rnxhofM4F2NnzIY4lDgeI1HyBquurHznd64rD9c48KspdfsyNSXl+82Our7yoTlPnjrfN4HrzQWeRM4cGydfYM4elY9HhFhDCMJbuh9gSZFLSnLvYBWvQfE1LydOPwX2IkLFuigcrU7NnJZXo" />
+</div>
+
+
+
+<a class="anchor-skip" href="#tdInnerContent" tabindex="0">Skip to main content</a>
+<a class="anchor-skip" href="#pnlMainContent>" tabindex="0">Skip navigation</a>
+
+
+<header class="header-container-header fixed-top" role="banner">
+    
+    <div class="header-ad-div" id="headerAdDiv">
+        
+    
+    <div id="ctl00_HeaderAd_pnlAirship" class="airship-ad-div headerad-bar-div">
+	
+        <div class="headerad-content-div">
+            <a class="headerad-message-a" href="#">
+                Don’t miss any special offers, discounts, or exciting updates! Click here to enable notifications and we’ll always keep you in the loop. PS: You can opt out at any time.
+            </a>
+        </div>
+        <button class="headerad-close-button" type="button" data-dismiss="headerad" aria-label="Close airship optin window">x</button>
+    
+</div>
+
+        
+    </div>
+
+    
+    <div class="header-mobile-div">
+        
+        <a class="header-mobilelink-a header-mobilelink-a-menu" role="button" href="#" onclick="openNav();return false;" aria-label="Open Menu">
+            <img class="header-mobilelink-img header-mobilelink-img-menu" src="assets/header/icon-hamburger.svg" alt="Link. Open menu icon."/>
+        </a>
+        
+        <a href="#divSearchWrapper" class="header-mobilelink-a header-mobilelink-a-search" role="button" data-toggle="modal" aria-label="Search">
+            <img class="header-mobilelink-img header-mobilelink-img-search" src="assets/header/icon-search.svg" alt="Link. Search login icon."/>
+        </a>
+        
+        <div class="header-mobilelogo-div">
+            <a class="header-mobilelogo-a" role="button"
+               href="index.html" aria-label="Home Page Link">
+                <img id="ctl00_imgMobileLogo" class="header-mobilelogo-img" src="assets/header/VENUS-Logo.svg" alt="VENUS logo" style="border-width:0px;" />
+            </a>
+        </div>
+        
+        
+            <a href="secure/login.html" class="header-mobilelink-a header-mobilelink-a-account header-mobilelink-a-account-notloggedin" role="button" aria-label="Account">
+                <img class="header-mobilelink-img header-mobilelink-img-account-notloggedin" src="assets/header/icon-account.svg" alt="Link. Account login icon."/>
+            </a>
+        
+        
+
+        
+        <div id="ctl00_divShoppingBagMobile">
+            <a href="bag.html" class="header-mobilelink-a header-mobilelink-a-bag" role="button" aria-label="Checkout Shopping Bag">
+                <span>
+                    <span class="sr-only">Shopping Bag - Checkout</span>
+                    <img class="header-mobilelink-img header-mobilelink-img-bag" src="assets/header/icon-bag.svg" alt="Link. Checkout shopping bag icon."/>
+                </span>
+                <span id="ctl00_lblheadercartAdaMobile" class="header-mobilebagcountada-span" aria-label="There are no items in your shopping bag.">
+                    <span id="ctl00_lblheadercartmobile" class="header-mobilebagcount-span" aria-hidden="true"></span>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    
+    <div id="tnvMobile" class="msidebar-wrapper-div">
+        <nav class="msidebar-sidenavpanel-nav" role="navigation">
+            <div class="msidebar-linkwrapper-div">
+                <div class="nav-mobile-div topnav">
+<a class="noindent mobilecategory-hl">CLOTHING</a>
+<a href="clothing.html" class="indent mobilelanding-hl">CLOTHING</a>
+<a href="productsc6a5.html?BRANCH=7~72~" class="indent mobilesubcategory-hl">Dresses</a>
+<a href="products6500.html?BRANCH=7~63~" class="indent mobilesubcategory-hl">Tops</a>
+<a href="products00cb.html?BRANCH=7~69~" class="indent mobilesubcategory-hl">Sweaters</a>
+<a href="products901f.html?BRANCH=7~73~" class="indent mobilesubcategory-hl">Jackets & Coats</a>
+<a href="productscea2.html?BRANCH=7~164~" class="indent mobilesubcategory-hl">Loungewear</a>
+<a href="productsd9eb.html?BRANCH=7~183~" class="indent mobilesubcategory-hl">Jumpsuits & Rompers</a>
+<a href="products111c.html?BRANCH=7~2999~" class="indent mobilesubcategory-hl">Jeans</a>
+<a href="products7234.html?BRANCH=7~70~" class="indent mobilesubcategory-hl">Pants</a>
+<a href="products87e4.html?BRANCH=7~7614~" class="indent mobilesubcategory-hl">Shorts</a>
+<a href="products55f7.html?BRANCH=7~71~" class="indent mobilesubcategory-hl">Skirts</a>
+<a href="products722c.html?BRANCH=7~7045~" class="indent mobilesubcategory-hl">Basics but Better</a>
+<a href="products6a3b.html?BRANCH=7~75~" class="indent mobilesubcategory-hl">Shoes & Boots</a>
+<a href="productsa53a.html?BRANCH=7~77~" class="indent mobilesubcategory-hl">Accessories & Handbags</a>
+<a href="productsb1fe.html?BRANCH=7~3599~" class="indent mobilesubcategory-hl">Jewelry</a>
+<a href="products4966.html?BRANCH=7~7467~" class="indent mobilesubcategory-hl">Holiday Gift Guide</a>
+<a class="indent mobilecategory-hl"><a href="sizechart.html" class="indent mobilesubcategory-hl">Size Chart</a>
+<a class="indent mobilecategory-hl"><a href="fit_guides/dresses.html" class="indent mobilesubcategory-hl">Dress Fit Guide</a>
+<a class="indent mobilecategory-hl"><a href="defaultsale.html" class="indent mobilesubcategory-hl" aria-label="Sale Clothing">Sale</a>
+<a class="indent mobilecategory-hl"><a href="clearance.html" class="indent mobilesubcategory-hl">Clearance</a>
+<a class="noindent mobilecategory-hl">SWIMWEAR</a>
+<a href="swimwear.html" class="indent mobilelanding-hl">SWIMWEAR</a>
+<a class="indent mobilecategory-hl"><a href="shopbyfabric.html" class="indent mobilesubcategory-hl">Shop by Print/Color</a>
+<a class="indent mobilecategory-hl"><a href="swim/default.html" class="indent mobilesubcategory-hl">Shop by Style</a>
+<a href="products8334.html?BRANCH=24~93~" class="indent mobilesubcategory-hl">Cheeky Bottoms</a>
+<a href="productsae63.html?BRANCH=24~95~" class="indent mobilesubcategory-hl">Moderate Bottoms</a>
+<a href="productsfc69.html?BRANCH=24~96~" class="indent mobilesubcategory-hl">Full Bottoms</a>
+<a href="productse7ec.html?BRANCH=24~97~" class="indent mobilesubcategory-hl">One-Piece Swimsuits & Monokinis</a>
+<a href="productsee44.html?BRANCH=24~98~" class="indent mobilesubcategory-hl">Cover-ups</a>
+<a href="productse777.html?BRANCH=24~7559~" class="indent mobilesubcategory-hl">Sustainable Swimwear</a>
+<a class="indent mobilecategory-hl"><a href="sizechart.html" class="indent mobilesubcategory-hl">Size Chart</a>
+<a class="indent mobilecategory-hl"><a href="fit_guides/swimwear.html" class="indent mobilesubcategory-hl">Fit Guide</a>
+<a class="indent mobilecategory-hl"><a href="sale_swim_shopbystyle.html" class="indent mobilesubcategory-hl" aria-label="Sale Swimwear">Sale</a>
+<a class="indent mobilecategory-hl"><a href="clearance_swim_shopbystyle.html" class="indent mobilesubcategory-hl">Clearance</a>
+<a class="noindent mobilecategory-hl">LINGERIE</a>
+<a href="lingerie.html" class="indent mobilelanding-hl">LINGERIE</a>
+<a href="products6ea1.html?BRANCH=129~7602~" class="indent mobilesubcategory-hl">Pearl by Venus®</a>
+<a href="products00ab.html?BRANCH=129~5334~" class="indent mobilesubcategory-hl">Bras</a>
+<a href="products3936.html?BRANCH=129~5335~" class="indent mobilesubcategory-hl">Panties</a>
+<a href="products9744.html?BRANCH=129~6923~" class="indent mobilesubcategory-hl">Pajamas & Sleep</a>
+<a href="productsf35b.html?BRANCH=129~4041~" class="indent mobilesubcategory-hl">Fashion Solutions</a>
+<a href="productsa74b.html?BRANCH=129~4042~" class="indent mobilesubcategory-hl">Sexy Lingerie</a>
+<a href="productsd89a.html?BRANCH=129~4043~" class="indent mobilesubcategory-hl">Shapewear & Solutions</a>
+<a class="indent mobilecategory-hl"><a href="fit_guides/lingerie.html" class="indent mobilesubcategory-hl">Lingerie Fit Guide</a>
+<a class="indent mobilecategory-hl"><a href="sale_lingerie_shopbystyle.html" class="indent mobilesubcategory-hl" aria-label="Sale Lingerie">Sale</a>
+<a class="indent mobilecategory-hl"><a href="clearance_lingerie_shopbystyle.html" class="indent mobilesubcategory-hl">Clearance</a>
+<a class="noindent mobilecategory-hl">PLUS SIZE</a>
+<a href="plus-size-clothing.html" class="indent mobilelanding-hl">PLUS SIZE</a>
+<a class="indent mobilecategory-hl"><a href="plus-size-clothing.html" class="indent mobilesubcategory-hl" aria-label="Plus Size Clothing">Clothing</a>
+<a href="products6a3b.html?BRANCH=7~75~" class="indent mobilesubcategory-hl" aria-label="Plus Size Shoes & Boots">Shoes & Boots</a>
+<a href="productsa53a.html?BRANCH=7~77~" class="indent mobilesubcategory-hl" aria-label="Plus Size Accessories & Handbags">Accessories & Handbags</a>
+<a href="productsb1fe.html?BRANCH=7~3599~" class="indent mobilesubcategory-hl" aria-label="Plus Size Jewelry">Jewelry</a>
+<a class="indent mobilecategory-hl"><a href="plus-size-swimwear.html" class="indent mobilesubcategory-hl" aria-label="Plus Size Swimwear">Swimwear</a>
+<a class="indent mobilecategory-hl"><a href="sale_clothing_plus-size_shopbystyle.html" class="indent mobilesubcategory-hl" aria-label="Plus Size Sale Clothing">Sale</a>
+<a class="indent mobilecategory-hl"><a href="clearance_clothing_plus-size_shopbystyle.html" class="indent mobilesubcategory-hl" aria-label="Plus Size Clearance Clothing">Clearance</a>
+<a class="noindent mobilecategory-hl">WHAT'S NEW</a>
+<a href="newarrivals/default.html" class="indent mobilelanding-hl">WHAT'S NEW</a>
+<a href="productsba5b.html?BRANCH=351~530~3377~" class="indent mobilesubcategory-hl">New Clothing</a>
+<a href="products0fda.html?BRANCH=351~530~6113~" class="indent mobilesubcategory-hl">New Shoes & Accessories</a>
+<a href="products1212.html?BRANCH=351~530~6111~" class="indent mobilesubcategory-hl">New Lingerie & Sleepwear</a>
+<a href="products8421.html?BRANCH=351~530~3376~" class="indent mobilesubcategory-hl">New Swim</a>
+<a class="noindent mobilecategory-hl">TRENDS</a>
+<a href="collections/default.html" class="indent mobilelanding-hl">TRENDS</a>
+<a class="indent mobilecategory-hl"><a href="collections/default.html" class="indent mobilesubcategory-hl">Trends Shop</a>
+<a class="noindent mobilecategory-hl">PRE-ORDER</a>
+<a href="preview96b3.html?storeid=1" class="indent mobilelanding-hl">PRE-ORDER</a>
+<a class="indent mobilecategory-hl"><a href="sportswear96b3.html?storeid=1" class="indent mobilesubcategory-hl" aria-label="Preorder Clothing">Clothing</a>
+<a class="noindent mobilecategory-hl">SALE</a>
+<a href="defaultsale.html" class="indent mobilelanding-hl">SALE</a>
+<a class="indent mobilecategory-hl"><a href="sale_clothing_shopbystyle.html" class="indent mobilesubcategory-hl" aria-label="Sale Clothing">Clothing Sale</a>
+<a class="indent mobilecategory-hl"><a href="clearance_clothing_shopbystyle.html" class="indent mobilesubcategory-hl">Clothing Clearance</a>
+<a class="indent mobilecategory-hl"><a href="sale_swim_shopbystyle.html" class="indent mobilesubcategory-hl" aria-label="Sale Swim">Swim Sale</a>
+<a class="indent mobilecategory-hl"><a href="clearance_swim_shopbystyle.html" class="indent mobilesubcategory-hl">Swim Clearance</a>
+<a class="indent mobilecategory-hl"><a href="sale_lingerie_shopbystyle.html" class="indent mobilesubcategory-hl" aria-label="Sale Lingerie">Lingerie Sale</a>
+<a class="indent mobilecategory-hl"><a href="clearance_lingerie_shopbystyle.html" class="indent mobilesubcategory-hl">Lingerie Clearance</a>
+<a class="indent mobilecategory-hl"><a href="sale_clothing_plus-size_shopbystyle.html" class="indent mobilesubcategory-hl" aria-label="Plus Size Clothing Sale">Plus Size Clothing Sale</a>
+<a class="indent mobilecategory-hl"><a href="clearance_clothing_plus-size_shopbystyle.html" class="indent mobilesubcategory-hl">Plus Size Clothing Clearance</a>
+<a class="indent mobilecategory-hl"><a href="sale_swim_plus-size_shopbystyle.html" class="indent mobilesubcategory-hl" aria-label="Plus Size Swim Sale">Plus Size Swim Sale</a>
+<a class="indent mobilecategory-hl"><a href="clearance_swim_plus-size_shopbystyle.html" class="indent mobilesubcategory-hl">Plus Size Swim Clearance</a>
+</div>
+
+                <div class="msidebar-account-div">
+                    
+                        <ul class="msidebar-signin-ul">
+                            <li class="msidebar-signin-li">
+                                <a class="msidebar-signin-a" href="secure/login.html">SIGN IN / SIGN UP</a>
+                            </li>
+                        </ul>
+                    
+                    
+                </div>
+                <div class="msidebar-bottomcontent-div">
+                    <ul class="msidebar-links-ul">
+                        <li id="ctl00_liCreditLinkMobile" class="msidebar-link-li">
+                            <a class="msidebar-link-a msidebar-link-a-venuscard" href="Venus-Card/Default.html" aria-label="Venus Card">VENUS Card</a>
+                        </li>
+                        <li class="msidebar-link-li">
+                            <a class="msidebar-link-a msidebar-link-a-contactus" href="contact.html" aria-label="Contact Us">Contact Us</a>
+                        </li>
+                        <li class="msidebar-link-li">
+                            <a class="msidebar-link-a msidebar-link-a-customercare" href="customerservice.html" aria-label="Customer Care">Customer Care</a>
+                        </li>
+                        <li class="msidebar-link-li">
+                            <a class="msidebar-link-a msidebar-link-a-sizeinfo" href="sizechart.html" aria-label="Size Info">Size Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    
+    <div class="header-desktop-div">
+        <div id="ctl00_pageHeader" class="header-desktop-row-div">
+            
+            <div class="header-desktoplogo-div">
+                <a class="header-desktoplogo-a" role="button"
+                   href="index.html" aria-label="Home Page Link">
+                    <img id="ctl00_imgDesktopLogo" class="header-desktoplogo-img" src="assets/header/VENUS-Logo.svg" alt="VENUS logo" style="border-width:0px;" />
+                </a>
+            </div>
+
+            
+            <div class="header-desktopsearch-div">
+                <div id="ctl00_searchTR" class="header-desktopsearchbar-div">
+                    <label class="sr-only" for="searchterm_desktop" id="lblSearchTermDesktop">Search Products</label>
+                    <button class="header-desktopsearch-button" onclick="submitsearch();return false;" aria-label="Search">
+                        <img class="header-desktopsearch-img" src="assets/header/icon-search-gray.svg" alt="Search button icon">
+                    </button>
+                    <input name="ctl00$searchterm_desktop" maxlength="40" size="27" id="searchterm_desktop" class="header-desktopsearch-inputtext" name="searchterm_desktop" type="text" Autocomplete="new-password" placeholder="Search Products" onKeyPress="if (event.keyCode == 13 &amp;&amp; this.value!=&#39;&#39;) { submitsearch(); return false; }" onKeyUp="if ((event.keyCode != 38) &amp;&amp; (event.keyCode != 40) &amp;&amp; (event.keyCode != 13)) { searchSuggest(); return true; } else if (event.keyCode == 40) { suggestDown(); return true;} else if (event.keyCode == 38) { suggestUp(); return true;}" />
+                </div>
+                <div id="ctl00_searchsuggest"></div>
+            </div>
+
+            
+            <div class="header-desktopaccount-div">
+                
+                    <a class="header-desktopsignin-a" href="secure/login.html">SIGN IN / SIGN UP</a>
+                
+                
+            </div>
+
+            
+            <div class="header-desktoplink-div header-desktoplink-div-wishlist">
+                <a class="header-desktoplink-a header-desktoplink-a-wishlist" href="secure/login0b64.html" aria-label="Wish List">
+                    <img class="header-desktoplink-img header-desktoplink-img-wishlist" src="assets/icons/icon-heart.svg" alt="Link. Wish list icon."/>
+                </a>
+            </div>
+
+            
+            <div id="ctl00_divShoppingBag" class="header-desktoplink-div header-desktoplink-div-bag">
+                <a class="header-desktoplink-a header-desktoplink-a-bag" href="bag.html" aria-label="Checkout Shopping Bag">
+                    <span>
+                        <span class="sr-only">Shopping Bag - Checkout</span>
+                        <img class="header-desktoplink-img header-desktoplink-img-bag" src="assets/header/icon-bag.svg" alt="Link. Checkout shopping bag icon.">
+                    </span>
+                    <span id="ctl00_lblheadercartAda" class="header-desktopbagcountada-span" aria-label="There are no items in your shopping bag.">
+                        <span id="ctl00_lblheadercart" class="header-desktopbagcount-span" aria-hidden="true"></span>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div id="navDdContainer">
+            <div id="tnv">
+<div id="main-nav" class="bottomless">
+<ul>
+<li class="menu-item left">
+<a href="clothing.html" class="menu-title zeroZIndex">CLOTHING</a>
+<ul class="submenu">
+<ul class="submenu-pane">
+<li class="cat-title"><a href="productsc6a5.html?BRANCH=7~72~">Dresses</a></li>
+<li class="cat-sub"><a href="products081b.html?BRANCH=7~72~4214~">Sweater Dresses</a></li>
+<li class="cat-sub"><a href="productsdc38.html?BRANCH=7~72~5826~">BodyCon Dresses</a></li>
+<li class="cat-sub"><a href="productscfdb.html?BRANCH=7~72~5031~">Party Dresses</a></li>
+<li class="cat-sub"><a href="products4a63.html?BRANCH=7~72~5825~">Formal Dresses</a></li>
+<li class="cat-sub"><a href="products7e2a.html?BRANCH=7~72~7389~">Short Dresses</a></li>
+<li class="cat-sub"><a href="productscf87.html?BRANCH=7~72~7388~">Midi Dresses</a></li>
+<li class="cat-sub"><a href="productsf965.html?BRANCH=7~72~4080~">Maxi Dresses</a></li>
+<li class="cat-sub"><a href="productsa7f0.html?BRANCH=7~72~3030~">Casual Dresses</a></li>
+<li class="cat-sub"><a href="productsa58b.html?BRANCH=7~72~7613~">Sundresses</a></li>
+<li class="cat-sub"><a href="products8cb8.html?BRANCH=7~72~6610~">Little White Dresses</a></li>
+<li class="cat-sub"><a href="productsaf37.html?BRANCH=7~72~4079~">Little Black Dresses</a></li>
+<li class="cat-sub"><a href="products9c22.html?BRANCH=7~72~7376~">Dresses $39 & Under</a></li>
+<li class="cat-title"><a href="products6500.html?BRANCH=7~63~">Tops</a></li>
+<li class="cat-sub"><a href="products4c2a.html?BRANCH=7~63~2052~">Long Sleeve Tops</a></li>
+<li class="cat-sub"><a href="products84d0.html?BRANCH=7~63~2051~">Short Sleeve Tops</a></li>
+<li class="cat-sub"><a href="productsfee6.html?BRANCH=7~63~2050~">Sleeveless Tops</a></li>
+<li class="cat-sub"><a href="productsc8fe.html?BRANCH=7~63~7436~">Sexy Tops</a></li>
+<li class="cat-sub"><a href="products744b.html?BRANCH=7~63~7437~">Night Out Tops</a></li>
+<li class="cat-sub"><a href="products8abe.html?BRANCH=7~63~4227~">Blouses</a></li>
+<li class="cat-sub"><a href="products7b60.html?BRANCH=7~63~7375~">Casual Tops</a></li>
+<li class="cat-sub"><a href="productse38e.html?BRANCH=7~63~7438~">Venus Basics Tops</a></li>
+<li class="cat-sub"><a href="products92a2.html?BRANCH=7~63~6046~">Tops $29 & Under</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="products00cb.html?BRANCH=7~69~">Sweaters</a></li>
+<li class="cat-sub"><a href="products4253.html?BRANCH=7~69~7422~">Sweaters $39 & Under</a></li>
+<li class="cat-sub"><a href="productsb4e4.html?BRANCH=7~69~3008~">Cardigans & Dusters</a></li>
+<li class="cat-sub"><a href="productsfb63.html?BRANCH=7~69~6928~">Turtleneck & Mock Neck</a></li>
+<li class="cat-sub"><a href="products9d1e.html?BRANCH=7~69~6930~">Pullover</a></li>
+<li class="cat-sub"><a href="products4079.html?BRANCH=7~69~7798~">Sexy Sweaters</a></li>
+<li class="cat-title"><a href="products901f.html?BRANCH=7~73~">Jackets & Coats</a></li>
+<li class="cat-sub"><a href="products5c53.html?BRANCH=7~73~4038~">Jackets</a></li>
+<li class="cat-sub"><a href="products8c1a.html?BRANCH=7~73~5032~">Coats</a></li>
+<li class="cat-sub"><a href="products2b83.html?BRANCH=7~73~4037~">Blazers</a></li>
+<li class="cat-sub"><a href="productsa279.html?BRANCH=7~73~3060~">Faux Leather</a></li>
+<li class="cat-sub"><a href="productsa0f4.html?BRANCH=7~73~3058~">Denim</a></li>
+<li class="cat-title"><a href="productscea2.html?BRANCH=7~164~">Loungewear</a></li>
+<li class="cat-sub"><a href="products25a2.html?BRANCH=7~164~7090~">Activewear</a></li>
+<li class="cat-sub"><a href="productsb3d1.html?BRANCH=7~164~6832~">Tops</a></li>
+<li class="cat-sub"><a href="productsfcd2.html?BRANCH=7~164~6834~">Bottoms</a></li>
+<li class="cat-sub"><a href="products5962.html?BRANCH=7~164~6833~">Dresses</a></li>
+<li class="cat-sub"><a href="products659d.html?BRANCH=7~164~7260~">Jumpsuits & Rompers</a></li>
+<li class="cat-sub"><a href="products1148.html?BRANCH=7~164~7412~">Sweatshirts & Hoodies</a></li>
+<li class="cat-sub"><a href="productsbb42.html?BRANCH=7~164~7843~">Cozy Loungewear</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="productsd9eb.html?BRANCH=7~183~">Jumpsuits & Rompers</a></li>
+<li class="cat-sub"><a href="productsb50a.html?BRANCH=7~183~7134~">Jumpsuits</a></li>
+<li class="cat-sub"><a href="products532f.html?BRANCH=7~183~3044~">Rompers</a></li>
+<li class="cat-sub"><a href="products99f0.html?BRANCH=7~183~7611~">Casual Jumpsuits & Rompers</a></li>
+<li class="cat-sub"><a href="productsf418.html?BRANCH=7~183~7612~">Occasion Jumpsuits & Rompers</a></li>
+<li class="cat-title"><a href="products111c.html?BRANCH=7~2999~">Jeans</a></li>
+<li class="cat-sub"><a href="products7ef9.html?BRANCH=7~2999~7797~">Favorite Venus Denim</a></li>
+<li class="cat-sub"><a href="products7f88.html?BRANCH=7~2999~7794~">Skinny</a></li>
+<li class="cat-sub"><a href="products308f.html?BRANCH=7~2999~7795~">Bootcut & Flare</a></li>
+<li class="cat-sub"><a href="products1e39.html?BRANCH=7~2999~5033~">Cropped and Capri Jeans</a></li>
+<li class="cat-sub"><a href="products5990.html?BRANCH=7~2999~6931~">Novelty Jeans</a></li>
+<li class="cat-sub"><a href="products9a00.html?BRANCH=7~2999~7796~">Denim Solutions</a></li>
+<li class="cat-title"><a href="products7234.html?BRANCH=7~70~">Pants</a></li>
+<li class="cat-sub"><a href="productsf4f2.html?BRANCH=7~70~3671~">Leggings</a></li>
+<li class="cat-sub"><a href="products468b.html?BRANCH=7~70~3025~">Casual</a></li>
+<li class="cat-sub"><a href="products1519.html?BRANCH=7~70~2059~">Capris</a></li>
+<li class="cat-title"><a href="products87e4.html?BRANCH=7~7614~">Shorts</a></li>
+<li class="cat-title"><a href="products55f7.html?BRANCH=7~71~">Skirts</a></li>
+<li class="cat-sub"><a href="products807a.html?BRANCH=7~71~4411~">Maxi Skirts</a></li>
+<li class="cat-title"><a href="products722c.html?BRANCH=7~7045~">Basics but Better</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="products6a3b.html?BRANCH=7~75~">Shoes & Boots</a></li>
+<li class="cat-sub"><a href="products26d8.html?BRANCH=7~75~3035~">Boots & Booties</a></li>
+<li class="cat-sub"><a href="productsa212.html?BRANCH=7~75~3034~">Heels</a></li>
+<li class="cat-sub"><a href="products94be.html?BRANCH=7~75~6073~">Sandals & Wedges</a></li>
+<li class="cat-sub"><a href="products15e1.html?BRANCH=7~75~3036~">Casual</a></li>
+<li class="cat-title"><a href="productsa53a.html?BRANCH=7~77~">Accessories & Handbags</a></li>
+<li class="cat-sub"><a href="products4a20.html?BRANCH=7~77~4317~">Handbags</a></li>
+<li class="cat-sub"><a href="products8c03.html?BRANCH=7~77~4318~">Belts</a></li>
+<li class="cat-sub"><a href="products556a.html?BRANCH=7~77~5142~">Hats</a></li>
+<li class="cat-sub"><a href="productsf688.html?BRANCH=7~77~7372~">Masks</a></li>
+<li class="cat-title"><a href="productsb1fe.html?BRANCH=7~3599~">Jewelry</a></li>
+<li class="cat-sub"><a href="products47a5.html?BRANCH=7~3599~3605~">Earrings</a></li>
+<li class="cat-sub"><a href="products49bb.html?BRANCH=7~3599~3604~">Necklaces</a></li>
+<li class="cat-sub"><a href="products9160.html?BRANCH=7~3599~3606~">Bracelets</a></li>
+<li class="cat-title"><a href="products4966.html?BRANCH=7~7467~">Holiday Gift Guide</a></li>
+<li class="cat-sub"><a href="products0334.html?BRANCH=7~7467~7470~">Gifts $29 & Under</a></li>
+<li class="cat-sub"><a href="products23bb.html?BRANCH=7~7467~7469~">Gifts $39 & Under</a></li>
+<li class="cat-sub"><a href="productsc4e8.html?BRANCH=7~7467~7468~">Gifts $49 & under</a></li>
+<li class="cat-title strong"><a href="sizechart.html" class="strong">Size Chart</a></li>
+<li class="cat-title strong"><a href="fit_guides/dresses.html" class="strong">Dress Fit Guide</a></li>
+<li class="cat-title strong"><a href="defaultsale.html" class="redtext" aria-label="Sale Clothing">Sale</a></li>
+<li class="cat-title strong"><a href="clearance.html" class="redtext">Clearance</a></li>
+</ul>
+</ul>
+</li>
+<li class="menu-item left">
+<a href="swimwear.html" class="menu-title">SWIMWEAR</a>
+<ul class="submenu">
+<ul class="submenu-pane">
+<li class="cat-title strong"><a href="shopbyfabric.html" class="strong">Shop by Print/Color</a></li>
+<li class="cat-title strong"><a href="swim/default.html" class="strong">Shop by Style</a></li>
+<li class="cat-sub"><a href="products9bac.html?BRANCH=24~91~">Tankini Tops</a></li>
+<li class="cat-sub"><a href="products420d.html?BRANCH=24~86~">Push-Up Bikini Tops</a></li>
+<li class="cat-sub"><a href="productse875.html?BRANCH=24~217~">Triangle Bikini Tops</a></li>
+<li class="cat-sub"><a href="products528d.html?BRANCH=24~3200~">Sport Bikini Tops</a></li>
+<li class="cat-sub"><a href="products4d75.html?BRANCH=24~89~">Halter Bikini Tops</a></li>
+<li class="cat-sub"><a href="productsbe3a.html?BRANCH=24~87~">Underwire Bikini Tops</a></li>
+<li class="cat-sub"><a href="products068b.html?BRANCH=24~90~">Bandeau Bikini Tops</a></li>
+<li class="cat-sub"><a href="productsfb4a.html?BRANCH=24~5862~">Bralette Bikini Tops</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="products8334.html?BRANCH=24~93~">Cheeky Bottoms</a></li>
+<li class="cat-title"><a href="productsae63.html?BRANCH=24~95~">Moderate Bottoms</a></li>
+<li class="cat-sub"><a href="productsfe6f.html?BRANCH=24~95~3204~">High Waist Moderate</a></li>
+<li class="cat-sub"><a href="products28cd.html?BRANCH=24~95~3202~">Hipster</a></li>
+<li class="cat-sub"><a href="products418a.html?BRANCH=24~95~3201~">Low Rise</a></li>
+<li class="cat-sub"><a href="productsa781.html?BRANCH=24~95~3203~">Scoop</a></li>
+<li class="cat-sub"><a href="products7859.html?BRANCH=24~95~3206~">String</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="productsfc69.html?BRANCH=24~96~">Full Bottoms</a></li>
+<li class="cat-sub"><a href="products4089.html?BRANCH=24~96~3211~">High Waist Full</a></li>
+<li class="cat-sub"><a href="products4261.html?BRANCH=24~96~3212~">Skirted Full</a></li>
+<li class="cat-sub"><a href="productsc406.html?BRANCH=24~96~3213~">Swim Shorts</a></li>
+<li class="cat-title"><a href="productse7ec.html?BRANCH=24~97~">One-Piece Swimsuits & Monokinis</a></li>
+<li class="cat-sub"><a href="productsbaac.html?BRANCH=24~97~4221~">Slimming One-pieces</a></li>
+<li class="cat-sub"><a href="products7879.html?BRANCH=24~97~7650~">Monokinis</a></li>
+<li class="cat-sub"><a href="products5584.html?BRANCH=24~97~6710~">Swim Dresses</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="productsee44.html?BRANCH=24~98~">Cover-ups</a></li>
+<li class="cat-sub"><a href="products8fde.html?BRANCH=24~98~7101~">Tops & Caftans/Kimonos</a></li>
+<li class="cat-sub"><a href="productsb9dd.html?BRANCH=24~98~7102~">Dresses</a></li>
+<li class="cat-sub"><a href="products544a.html?BRANCH=24~98~7103~">Cover-up Jumpsuits & Rompers</a></li>
+<li class="cat-sub"><a href="products405d.html?BRANCH=24~98~7104~">Pants & Shorts/Skirts</a></li>
+<li class="cat-title"><a href="productse777.html?BRANCH=24~7559~">Sustainable Swimwear</a></li>
+<li class="cat-title strong"><a href="sizechart.html" class="strong">Size Chart</a></li>
+<li class="cat-title strong"><a href="fit_guides/swimwear.html" class="strong">Fit Guide</a></li>
+<li class="cat-title strong"><a href="sale_swim_shopbystyle.html" class="redtext" aria-label="Sale Swimwear">Sale</a></li>
+<li class="cat-title strong"><a href="clearance_swim_shopbystyle.html" class="redtext">Clearance</a></li>
+</ul>
+</ul>
+</li>
+<li class="menu-item left">
+<a href="lingerie.html" class="menu-title">LINGERIE</a>
+<ul class="submenu">
+<ul class="submenu-pane">
+<li class="cat-title"><a href="products6ea1.html?BRANCH=129~7602~">Pearl by Venus®</a></li>
+<li class="cat-title"><a href="products00ab.html?BRANCH=129~5334~">Bras</a></li>
+<li class="cat-sub"><a href="products30b4.html?BRANCH=129~5334~5376~">Bralettes</a></li>
+<li class="cat-sub"><a href="products68cf.html?BRANCH=129~5334~5375~">Perfect Coverage Bras</a></li>
+<li class="cat-sub"><a href="productsa2e9.html?BRANCH=129~5334~5373~">Plunge Bras</a></li>
+<li class="cat-sub"><a href="products9494.html?BRANCH=129~5334~5377~">Strapless & Backless Bras</a></li>
+<li class="cat-sub"><a href="productsce9f.html?BRANCH=129~5334~5374~">Unlined Bras</a></li>
+<li class="cat-sub"><a href="productse346.html?BRANCH=129~5334~7414~">Wireless Bras</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="products3936.html?BRANCH=129~5335~">Panties</a></li>
+<li class="cat-sub"><a href="productsba08.html?BRANCH=129~5335~5381~">Bikini Panties</a></li>
+<li class="cat-sub"><a href="products83b4.html?BRANCH=129~5335~5378~">Hipster Panties</a></li>
+<li class="cat-sub"><a href="productsd33a.html?BRANCH=129~5335~5380~">Thong Panties</a></li>
+<li class="cat-title"><a href="products9744.html?BRANCH=129~6923~">Pajamas & Sleep</a></li>
+<li class="cat-sub"><a href="productsa469.html?BRANCH=129~6923~7257~">Nightgowns & Pajama Shirts</a></li>
+<li class="cat-sub"><a href="products70ae.html?BRANCH=129~6923~7258~">Pajama Separates</a></li>
+<li class="cat-sub"><a href="productse828.html?BRANCH=129~6923~7259~">Pajama Sets</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="productsf35b.html?BRANCH=129~4041~">Fashion Solutions</a></li>
+<li class="cat-title"><a href="productsa74b.html?BRANCH=129~4042~">Sexy Lingerie</a></li>
+<li class="cat-sub"><a href="productsd2f7.html?BRANCH=129~4042~5865~">Bodysuits</a></li>
+<li class="cat-sub"><a href="productsf361.html?BRANCH=129~4042~7367~">Chemises & Babydolls</a></li>
+<li class="cat-sub"><a href="products7fde.html?BRANCH=129~4042~7368~">Robes</a></li>
+<li class="cat-sub"><a href="products1243.html?BRANCH=129~4042~7239~">Sets</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="productsd89a.html?BRANCH=129~4043~">Shapewear & Solutions</a></li>
+<li class="cat-title strong"><a href="fit_guides/lingerie.html" class="strong">Lingerie Fit Guide</a></li>
+<li class="cat-title strong"><a href="sale_lingerie_shopbystyle.html" class="redtext" aria-label="Sale Lingerie">Sale</a></li>
+<li class="cat-title strong"><a href="clearance_lingerie_shopbystyle.html" class="redtext">Clearance</a></li>
+</ul>
+</ul>
+</li>
+<li class="menu-item left">
+<a href="plus-size-clothing.html" class="menu-title zeroZIndex">PLUS SIZE</a>
+<ul class="submenu">
+<ul class="submenu-pane">
+<li class="cat-title strong"><a href="plus-size-clothing.html" class="strong" aria-label="Plus Size Clothing">Clothing</a></li>
+<li class="cat-sub"><a href="products01ac.html?BRANCH=7~7495~&amp;ps=1" aria-label="Plus Size New Plus Styles">New Plus Styles</a></li>
+<li class="cat-sub"><a href="productsf9d1.html?BRANCH=7~72~&amp;ps=1" aria-label="Plus Size Dresses">Dresses</a></li>
+<li class="cat-sub"><a href="products7dde.html?BRANCH=7~63~&amp;ps=1" aria-label="Plus Size Tops">Tops</a></li>
+<li class="cat-sub"><a href="products33aa.html?BRANCH=7~69~&amp;ps=1" aria-label="Plus Size Sweaters">Sweaters</a></li>
+<li class="cat-sub"><a href="products918c.html?BRANCH=7~73~&amp;ps=1" aria-label="Plus Size Jackets & Coats">Jackets & Coats</a></li>
+<li class="cat-sub"><a href="productsa97b.html?BRANCH=7~164~&amp;ps=1" aria-label="Plus Size Loungewear">Loungewear</a></li>
+<li class="cat-sub"><a href="products4f28.html?BRANCH=7~183~&amp;ps=1" aria-label="Plus Size Jumpsuits & Rompers">Jumpsuits & Rompers</a></li>
+<li class="cat-sub"><a href="products8628.html?BRANCH=7~7490~&amp;ps=1" aria-label="Plus Size Pajamas & Lingerie">Pajamas & Lingerie</a></li>
+<li class="cat-sub"><a href="products9d6a.html?BRANCH=7~2999~&amp;ps=1" aria-label="Plus Size Jeans">Jeans</a></li>
+<li class="cat-sub"><a href="products3ff8.html?BRANCH=7~70~&amp;ps=1" aria-label="Plus Size Pants">Pants</a></li>
+<li class="cat-sub"><a href="products80e1.html?BRANCH=7~7614~&amp;ps=1" aria-label="Plus Size Shorts">Shorts</a></li>
+<li class="cat-sub"><a href="productsd9ae.html?BRANCH=7~71~&amp;ps=1" aria-label="Plus Size Skirts">Skirts</a></li>
+<li class="cat-sub"><a href="productsf50f.html?BRANCH=7~7045~&amp;ps=1" aria-label="Plus Size Basics but Better">Basics but Better</a></li>
+<li class="cat-sub"><a href="products920d.html?BRANCH=7~7467~&amp;ps=1" aria-label="Plus Size Holiday Gift Guide">Holiday Gift Guide</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="products6a3b.html?BRANCH=7~75~" aria-label="Plus Size Shoes & Boots">Shoes & Boots</a></li>
+<li class="cat-sub"><a href="products26d8.html?BRANCH=7~75~3035~" aria-label="Plus Size Boots & Booties ">Boots & Booties</a></li>
+<li class="cat-sub"><a href="productsa212.html?BRANCH=7~75~3034~" aria-label="Plus Size Heels ">Heels</a></li>
+<li class="cat-sub"><a href="products94be.html?BRANCH=7~75~6073~" aria-label="Plus Size Sandals & Wedges ">Sandals & Wedges</a></li>
+<li class="cat-sub"><a href="products15e1.html?BRANCH=7~75~3036~" aria-label="Plus Size Casual ">Casual</a></li>
+<li class="cat-title"><a href="productsa53a.html?BRANCH=7~77~" aria-label="Plus Size Accessories & Handbags">Accessories & Handbags</a></li>
+<li class="cat-sub"><a href="products4a20.html?BRANCH=7~77~4317~" aria-label="Plus Size Handbags ">Handbags</a></li>
+<li class="cat-sub"><a href="products8c03.html?BRANCH=7~77~4318~" aria-label="Plus Size Belts ">Belts</a></li>
+<li class="cat-sub"><a href="products556a.html?BRANCH=7~77~5142~" aria-label="Plus Size Hats ">Hats</a></li>
+<li class="cat-sub"><a href="productsf688.html?BRANCH=7~77~7372~" aria-label="Plus Size Masks ">Masks</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title"><a href="productsb1fe.html?BRANCH=7~3599~" aria-label="Plus Size Jewelry">Jewelry</a></li>
+<li class="cat-sub"><a href="products47a5.html?BRANCH=7~3599~3605~" aria-label="Plus Size Earrings ">Earrings</a></li>
+<li class="cat-sub"><a href="products49bb.html?BRANCH=7~3599~3604~" aria-label="Plus Size Necklaces ">Necklaces</a></li>
+<li class="cat-sub"><a href="products9160.html?BRANCH=7~3599~3606~" aria-label="Plus Size Bracelets ">Bracelets</a></li>
+<li class="cat-title strong"><a href="plus-size-swimwear.html" class="strong" aria-label="Plus Size Swimwear">Swimwear</a></li>
+<li class="cat-sub"><a href="productsd915.html?BRANCH=24~91~&amp;ps=1" aria-label="Plus Size Tankini Tops">Tankini Tops</a></li>
+<li class="cat-sub"><a href="products8af3.html?BRANCH=24~86~&amp;ps=1" aria-label="Plus Size Push-Up Bikini Tops">Push-Up Bikini Tops</a></li>
+<li class="cat-sub"><a href="products64fa.html?BRANCH=24~217~&amp;ps=1" aria-label="Plus Size Triangle Bikini Tops">Triangle Bikini Tops</a></li>
+<li class="cat-sub"><a href="productsaa78.html?BRANCH=24~3200~&amp;ps=1" aria-label="Plus Size Sport Bikini Tops">Sport Bikini Tops</a></li>
+<li class="cat-sub"><a href="products1733.html?BRANCH=24~89~&amp;ps=1" aria-label="Plus Size Halter Bikini Tops">Halter Bikini Tops</a></li>
+<li class="cat-sub"><a href="products4d16.html?BRANCH=24~87~&amp;ps=1" aria-label="Plus Size Underwire Bikini Tops">Underwire Bikini Tops</a></li>
+<li class="cat-sub"><a href="products8271.html?BRANCH=24~5862~&amp;ps=1" aria-label="Plus Size Bralette Bikini Tops">Bralette Bikini Tops</a></li>
+<li class="cat-sub"><a href="productsae79.html?BRANCH=24~95~&amp;ps=1" aria-label="Plus Size Moderate Bottoms">Moderate Bottoms</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-sub"><a href="products2b36.html?BRANCH=24~96~&amp;ps=1" aria-label="Plus Size Full Bottoms">Full Bottoms</a></li>
+<li class="cat-sub"><a href="productsac0b.html?BRANCH=24~7755~&amp;ps=1" aria-label="Plus Size New Plus Swim Styles">New Plus Swim Styles</a></li>
+<li class="cat-sub"><a href="products241a.html?BRANCH=24~97~&amp;ps=1" aria-label="Plus Size One-Piece Swimsuits & Monokinis">One-Piece Swimsuits & Monokinis</a></li>
+<li class="cat-sub"><a href="products92d5.html?BRANCH=24~98~&amp;ps=1" aria-label="Plus Size Cover-ups">Cover-ups</a></li>
+<li class="cat-sub"><a href="products80e7.html?BRANCH=24~7559~&amp;ps=1" aria-label="Plus Size Sustainable Swimwear">Sustainable Swimwear</a></li>
+<li class="cat-title strong"><a href="sale_clothing_plus-size_shopbystyle.html" class="redtext" aria-label="Plus Size Sale Clothing">Sale</a></li>
+<li class="cat-title strong"><a href="clearance_clothing_plus-size_shopbystyle.html" class="redtext" aria-label="Plus Size Clearance Clothing">Clearance</a></li>
+</ul>
+</ul>
+</li>
+<li class="menu-item left">
+<a href="newarrivals/default.html" class="menu-title">WHAT'S NEW</a>
+<ul class="submenu">
+<ul class="submenu-pane">
+<li class="cat-sub"><a href="productsba5b.html?BRANCH=351~530~3377~">New Clothing</a></li>
+<li class="cat-sub"><a href="products0fda.html?BRANCH=351~530~6113~">New Shoes & Accessories</a></li>
+<li class="cat-sub"><a href="products1212.html?BRANCH=351~530~6111~">New Lingerie & Sleepwear</a></li>
+<li class="cat-sub"><a href="products8421.html?BRANCH=351~530~3376~">New Swim</a></li>
+</ul>
+</ul>
+</li>
+<li class="menu-item left">
+<a href="collections/default.html" class="menu-title">TRENDS</a>
+<ul class="submenu">
+<ul class="submenu-pane">
+<li class="cat-title strong"><a href="collections/default.html" class="strong">Trends Shop</a></li>
+<li class="cat-sub"><a href="productsb8e4.html?BRANCH=351~515~7844~">Enchanted</a></li>
+<li class="cat-sub"><a href="productseb53.html?BRANCH=351~515~7851~">Feminine Blush</a></li>
+<li class="cat-sub"><a href="products8a85.html?BRANCH=351~515~7832~">Illusion </a></li>
+<li class="cat-sub"><a href="productsa131.html?BRANCH=351~515~7804~">Fall in Love</a></li>
+<li class="cat-sub"><a href="productsfef9.html?BRANCH=351~515~7792~">Empowered Edge</a></li>
+<li class="cat-sub"><a href="products37bb.html?BRANCH=351~515~7793~">Elegance </a></li>
+<li class="cat-sub"><a href="products1912.html?BRANCH=351~515~7766~">Escape</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-sub"><a href="products5959.html?BRANCH=351~515~7586~">Fall Denim Edit</a></li>
+</ul>
+<ul class="submenu-pane">
+</ul>
+</ul>
+</li>
+<li class="menu-item left">
+<a href="preview96b3.html?storeid=1" class="menu-title">PRE-ORDER</a>
+<ul class="submenu">
+<ul class="submenu-pane">
+<li class="cat-title strong"><a href="sportswear96b3.html?storeid=1" class="strong" aria-label="Preorder Clothing">Clothing</a></li>
+<li class="cat-sub"><a href="productsd659.html?BRANCH=7~72~&amp;storeid=1" aria-label="Preorder Dresses">Dresses</a></li>
+<li class="cat-sub"><a href="products0e99.html?BRANCH=7~63~&amp;storeid=1" aria-label="Preorder Tops">Tops</a></li>
+<li class="cat-sub"><a href="productsc84f.html?BRANCH=7~69~&amp;storeid=1" aria-label="Preorder Sweaters">Sweaters</a></li>
+<li class="cat-sub"><a href="products10c5.html?BRANCH=7~73~&amp;storeid=1" aria-label="Preorder Jackets & Coats">Jackets & Coats</a></li>
+<li class="cat-sub"><a href="products127b.html?BRANCH=7~164~&amp;storeid=1" aria-label="Preorder Loungewear">Loungewear</a></li>
+<li class="cat-sub"><a href="products29fc.html?BRANCH=7~183~&amp;storeid=1" aria-label="Preorder Jumpsuits & Rompers">Jumpsuits & Rompers</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-sub"><a href="productsb998.html?BRANCH=7~2999~&amp;storeid=1" aria-label="Preorder Jeans">Jeans</a></li>
+<li class="cat-sub"><a href="products9850.html?BRANCH=7~70~&amp;storeid=1" aria-label="Preorder Pants">Pants</a></li>
+<li class="cat-sub"><a href="productsa6ce.html?BRANCH=7~7614~&amp;storeid=1" aria-label="Preorder Shorts">Shorts</a></li>
+<li class="cat-sub"><a href="productse071.html?BRANCH=7~71~&amp;storeid=1" aria-label="Preorder Skirts">Skirts</a></li>
+</ul>
+<ul class="submenu-pane">
+</ul>
+</ul>
+</li>
+<li class="menu-item left sale-or-clearance">
+<a href="defaultsale.html" class="menu-title sale-or-clearance">SALE</a>
+<ul class="submenu">
+<ul class="submenu-pane">
+<li class="cat-title strong"><a href="sale_clothing_shopbystyle.html" class="strong" aria-label="Sale Clothing">Clothing Sale</a></li>
+<li class="cat-sub"><a href="onsalec6a5.html?BRANCH=7~72~" aria-label="Sale Dresses">Dresses</a></li>
+<li class="cat-sub"><a href="onsale6500.html?BRANCH=7~63~" aria-label="Sale Tops">Tops</a></li>
+<li class="cat-sub"><a href="onsale00cb.html?BRANCH=7~69~" aria-label="Sale Sweaters">Sweaters</a></li>
+<li class="cat-sub"><a href="onsale901f.html?BRANCH=7~73~" aria-label="Sale Jackets & Coats">Jackets & Coats</a></li>
+<li class="cat-sub"><a href="onsalecea2.html?BRANCH=7~164~" aria-label="Sale Loungewear">Loungewear</a></li>
+<li class="cat-sub"><a href="onsaled9eb.html?BRANCH=7~183~" aria-label="Sale Jumpsuits & Rompers">Jumpsuits & Rompers</a></li>
+<li class="cat-sub"><a href="onsale111c.html?BRANCH=7~2999~" aria-label="Sale Jeans">Jeans</a></li>
+<li class="cat-sub"><a href="onsale7234.html?BRANCH=7~70~" aria-label="Sale Pants">Pants</a></li>
+<li class="cat-sub"><a href="onsale87e4.html?BRANCH=7~7614~" aria-label="Sale Shorts">Shorts</a></li>
+<li class="cat-sub"><a href="onsale55f7.html?BRANCH=7~71~" aria-label="Sale Skirts">Skirts</a></li>
+<li class="cat-sub"><a href="onsale722c.html?BRANCH=7~7045~" aria-label="Sale Basics but Better">Basics but Better</a></li>
+<li class="cat-sub"><a href="onsale6a3b.html?BRANCH=7~75~" aria-label="Sale Shoes & Boots">Shoes & Boots</a></li>
+<li class="cat-sub"><a href="onsalea53a.html?BRANCH=7~77~" aria-label="Sale Accessories & Handbags">Accessories & Handbags</a></li>
+<li class="cat-sub"><a href="onsaleb1fe.html?BRANCH=7~3599~" aria-label="Sale Jewelry">Jewelry</a></li>
+<li class="cat-sub"><a href="onsale4966.html?BRANCH=7~7467~" aria-label="Sale Holiday Gift Guide">Holiday Gift Guide</a></li>
+<li class="cat-title strong"><a href="clearance_clothing_shopbystyle.html" class="redtext">Clothing Clearance</a></li>
+<li class="cat-title strong"><a href="sale_swim_shopbystyle.html" class="strong" aria-label="Sale Swim">Swim Sale</a></li>
+<li class="cat-sub"><a href="shopbyfabric_sale.html" aria-label="Sale Shop by Print/Color">Shop by Print/Color</a></li>
+<li class="cat-sub"><a href="sale_swim_shopbystyle.html" aria-label="Sale Shop by Style">Shop by Style</a></li>
+<li class="cat-sub"><a href="onsale9bac.html?BRANCH=24~91~" aria-label="Sale Tankini Tops">Tankini Tops</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-sub"><a href="onsale420d.html?BRANCH=24~86~" aria-label="Sale Push-Up Bikini Tops">Push-Up Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsalee875.html?BRANCH=24~217~" aria-label="Sale Triangle Bikini Tops">Triangle Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsale528d.html?BRANCH=24~3200~" aria-label="Sale Sport Bikini Tops">Sport Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsale4d75.html?BRANCH=24~89~" aria-label="Sale Halter Bikini Tops">Halter Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsalebe3a.html?BRANCH=24~87~" aria-label="Sale Underwire Bikini Tops">Underwire Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsale068b.html?BRANCH=24~90~" aria-label="Sale Bandeau Bikini Tops">Bandeau Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsalefb4a.html?BRANCH=24~5862~" aria-label="Sale Bralette Bikini Tops">Bralette Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsale8334.html?BRANCH=24~93~" aria-label="Sale Cheeky Bottoms">Cheeky Bottoms</a></li>
+<li class="cat-sub"><a href="onsaleae63.html?BRANCH=24~95~" aria-label="Sale Moderate Bottoms">Moderate Bottoms</a></li>
+<li class="cat-sub"><a href="onsalefc69.html?BRANCH=24~96~" aria-label="Sale Full Bottoms">Full Bottoms</a></li>
+<li class="cat-sub"><a href="onsalee7ec.html?BRANCH=24~97~" aria-label="Sale One-Piece Swimsuits & Monokinis">One-Piece Swimsuits & Monokinis</a></li>
+<li class="cat-sub"><a href="onsaleee44.html?BRANCH=24~98~" aria-label="Sale Cover-ups">Cover-ups</a></li>
+<li class="cat-sub"><a href="onsalee777.html?BRANCH=24~7559~" aria-label="Sale Sustainable Swimwear">Sustainable Swimwear</a></li>
+<li class="cat-sub"><a href="onsale1dd6.html?BRANCH=24~7308~" aria-label="Sale Sports Illustrated Swim ™">Sports Illustrated Swim ™</a></li>
+<li class="cat-sub"><a href="onsale7882.html?BRANCH=24~4299~" aria-label="Sale Versatility by Venus ™">Versatility by Venus ™</a></li>
+<li class="cat-title strong"><a href="clearance_swim_shopbystyle.html" class="redtext">Swim Clearance</a></li>
+<li class="cat-title strong"><a href="sale_lingerie_shopbystyle.html" class="strong" aria-label="Sale Lingerie">Lingerie Sale</a></li>
+<li class="cat-sub"><a href="onsale00ab.html?BRANCH=129~5334~" aria-label="Sale Bras">Bras</a></li>
+<li class="cat-sub"><a href="onsale9744.html?BRANCH=129~6923~" aria-label="Sale Pajamas & Sleep">Pajamas & Sleep</a></li>
+<li class="cat-sub"><a href="onsalea74b.html?BRANCH=129~4042~" aria-label="Sale Sexy Lingerie">Sexy Lingerie</a></li>
+<li class="cat-sub"><a href="onsaled89a.html?BRANCH=129~4043~" aria-label="Sale Shapewear & Solutions">Shapewear & Solutions</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title strong"><a href="clearance_lingerie_shopbystyle.html" class="redtext">Lingerie Clearance</a></li>
+<li class="cat-title strong"><a href="sale_clothing_plus-size_shopbystyle.html" class="strong" aria-label="Plus Size Clothing Sale">Plus Size Clothing Sale</a></li>
+<li class="cat-sub"><a href="onsale01ac.html?BRANCH=7~7495~&amp;ps=1" aria-label="Plus Size Sale New Plus Styles">New Plus Styles</a></li>
+<li class="cat-sub"><a href="onsalef9d1.html?BRANCH=7~72~&amp;ps=1" aria-label="Plus Size Sale Dresses">Dresses</a></li>
+<li class="cat-sub"><a href="onsale7dde.html?BRANCH=7~63~&amp;ps=1" aria-label="Plus Size Sale Tops">Tops</a></li>
+<li class="cat-sub"><a href="onsale33aa.html?BRANCH=7~69~&amp;ps=1" aria-label="Plus Size Sale Sweaters">Sweaters</a></li>
+<li class="cat-sub"><a href="onsale918c.html?BRANCH=7~73~&amp;ps=1" aria-label="Plus Size Sale Jackets & Coats">Jackets & Coats</a></li>
+<li class="cat-sub"><a href="onsalea97b.html?BRANCH=7~164~&amp;ps=1" aria-label="Plus Size Sale Loungewear">Loungewear</a></li>
+<li class="cat-sub"><a href="onsale4f28.html?BRANCH=7~183~&amp;ps=1" aria-label="Plus Size Sale Jumpsuits & Rompers">Jumpsuits & Rompers</a></li>
+<li class="cat-sub"><a href="onsale8628.html?BRANCH=7~7490~&amp;ps=1" aria-label="Plus Size Sale Pajamas & Lingerie">Pajamas & Lingerie</a></li>
+<li class="cat-sub"><a href="onsale9d6a.html?BRANCH=7~2999~&amp;ps=1" aria-label="Plus Size Sale Jeans">Jeans</a></li>
+<li class="cat-sub"><a href="onsale3ff8.html?BRANCH=7~70~&amp;ps=1" aria-label="Plus Size Sale Pants">Pants</a></li>
+<li class="cat-sub"><a href="onsale80e1.html?BRANCH=7~7614~&amp;ps=1" aria-label="Plus Size Sale Shorts">Shorts</a></li>
+<li class="cat-sub"><a href="onsaled9ae.html?BRANCH=7~71~&amp;ps=1" aria-label="Plus Size Sale Skirts">Skirts</a></li>
+<li class="cat-sub"><a href="onsalef50f.html?BRANCH=7~7045~&amp;ps=1" aria-label="Plus Size Sale Basics but Better">Basics but Better</a></li>
+<li class="cat-sub"><a href="onsale920d.html?BRANCH=7~7467~&amp;ps=1" aria-label="Plus Size Sale Holiday Gift Guide">Holiday Gift Guide</a></li>
+<li class="cat-title strong"><a href="clearance_clothing_plus-size_shopbystyle.html" class="redtext">Plus Size Clothing Clearance</a></li>
+</ul>
+<ul class="submenu-pane">
+<li class="cat-title strong"><a href="sale_swim_plus-size_shopbystyle.html" class="strong" aria-label="Plus Size Swim Sale">Plus Size Swim Sale</a></li>
+<li class="cat-sub"><a href="onsaled915.html?BRANCH=24~91~&amp;ps=1" aria-label="Plus Size Sale Tankini Tops">Tankini Tops</a></li>
+<li class="cat-sub"><a href="onsale8af3.html?BRANCH=24~86~&amp;ps=1" aria-label="Plus Size Sale Push-Up Bikini Tops">Push-Up Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsale64fa.html?BRANCH=24~217~&amp;ps=1" aria-label="Plus Size Sale Triangle Bikini Tops">Triangle Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsaleaa78.html?BRANCH=24~3200~&amp;ps=1" aria-label="Plus Size Sale Sport Bikini Tops">Sport Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsale1733.html?BRANCH=24~89~&amp;ps=1" aria-label="Plus Size Sale Halter Bikini Tops">Halter Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsale4d16.html?BRANCH=24~87~&amp;ps=1" aria-label="Plus Size Sale Underwire Bikini Tops">Underwire Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsale8271.html?BRANCH=24~5862~&amp;ps=1" aria-label="Plus Size Sale Bralette Bikini Tops">Bralette Bikini Tops</a></li>
+<li class="cat-sub"><a href="onsale8fcc.html?BRANCH=24~93~&amp;ps=1" aria-label="Plus Size Sale Cheeky Bottoms">Cheeky Bottoms</a></li>
+<li class="cat-sub"><a href="onsaleae79.html?BRANCH=24~95~&amp;ps=1" aria-label="Plus Size Sale Moderate Bottoms">Moderate Bottoms</a></li>
+<li class="cat-sub"><a href="onsale2b36.html?BRANCH=24~96~&amp;ps=1" aria-label="Plus Size Sale Full Bottoms">Full Bottoms</a></li>
+<li class="cat-sub"><a href="onsaleac0b.html?BRANCH=24~7755~&amp;ps=1" aria-label="Plus Size Sale New Plus Swim Styles">New Plus Swim Styles</a></li>
+<li class="cat-sub"><a href="onsale241a.html?BRANCH=24~97~&amp;ps=1" aria-label="Plus Size Sale One-Piece Swimsuits & Monokinis">One-Piece Swimsuits & Monokinis</a></li>
+<li class="cat-sub"><a href="onsale92d5.html?BRANCH=24~98~&amp;ps=1" aria-label="Plus Size Sale Cover-ups">Cover-ups</a></li>
+<li class="cat-sub"><a href="onsale80e7.html?BRANCH=24~7559~&amp;ps=1" aria-label="Plus Size Sale Sustainable Swimwear">Sustainable Swimwear</a></li>
+<li class="cat-sub"><a href="onsale58fe.html?BRANCH=24~7308~&amp;ps=1" aria-label="Plus Size Sale Sports Illustrated Swim ™">Sports Illustrated Swim ™</a></li>
+<li class="cat-title strong"><a href="clearance_swim_plus-size_shopbystyle.html" class="redtext">Plus Size Swim Clearance</a></li>
+</ul>
+</ul>
+</li>
+</ul>
+</div>
+<div class="clear topmenu"></div>
+</div>
+
+        </div>
+    </div>
+    </header>
+<div class="msidebar-backgroundoverlay-div"></div>
+
+
+<div id="divSearchWrapper" class="msearch-wrapper-div modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="msearch-modaldialog-div modal-dialog" role="document">
+        <div class="msearch-modalcontent-div modal-content">
+            <div class="msearch-modalheader-div modal-header">
+                <h5 class="msearch-modaltitle-h5 modal-title sr-only">Search Suggestions Modal Dialog</h5>
+                <button type="button" class="msearch-modalclose-button close" data-dismiss="modal" aria-label="Close">
+                    <span class="msearch-modalclosetext-span" aria-hidden="true">Close</span>
+                    <img class="msearch-modalcloseicon-img" src="assets/icons/icon-close.svg" alt="Close" aria-hidden="true"/>
+                </button>
+            </div>
+            <div class="msearch-modalbody-div modal-body">
+                <div class="msearch-bar-div">
+                    <label class="sr-only" for="searchterm_mobile" id="lblSearchTermMobile">Search Products</label>
+                    <input name="ctl00$searchterm_mobile" maxlength="40" size="27" id="searchterm_mobile" class="msearch-search-inputtext" name="searchterm_mobile" type="text" Autocomplete="new-password" placeholder="Search Products" onKeyPress="if (event.keyCode == 13 &amp;&amp; this.value!=&#39;&#39;) { submitsearchmobile(); return false; }" onKeyUp="if ((event.keyCode != 38) &amp;&amp; (event.keyCode != 40) &amp;&amp; (event.keyCode != 13)) { searchSuggest(); return true; } else if (event.keyCode == 40) { suggestDown(); return true;} else if (event.keyCode == 38) { suggestUp(); return true;}" />
+                    <button class="msearch-search-button" onclick="submitsearchmobile();return false;" aria-label="Search">
+                        <img class="msearch-search-img" src="assets/header/icon-search.svg" alt="Search button icon">
+                    </button>
+                </div>
+                <div id="ctl00_searchSuggestMobile"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="ctl00_pnlMainWrapper" class="general-main-container-div general-main-container-div-nomenu">
+	
+    
+    <div class="ad-reserved-div"></div>
+    <script type="text/javascript">
+        
+        setupHeaderAd();
+    </script>
+    <div class="general-breadcrumb-row-div">
+        <div class="general-breadcrumb-col-div">
+            <span id="ctl00_lblbreadcrumbs"></span>
+        </div>
+    </div>
+
+    
+    <div id="pnlMainContent" class="general-main-row-div general-main-row-div-nomenu">
+		
+        <div class="general-main-left-col-div">
+            
+        </div>
+
+        <div class="general-main-right-col-div">
+            <div>
+                <div class="bookmark">
+                    <span id="ctl00_lblbookmarklink"></span>
+                </div>
+
+                
+            </div>
+
+            
+
+            <div id="tdInnerContent" class="position-below-header" role="main">
+                
+    <div class="home-body1-row-div">
+        <div class="home-body1-col-div">
+             <div class="landing_container">
+  <div class="container">
+<div class="row text-center banner-text">          
+<div class="col-md-6 mb-2 mb-md-0" tabindex="0">
+<span><a href="emailupdates920a.html?tile=HE&amp;webSyncID=1d5bde6c-73e7-64a3-1073-2b25a7eb49de&amp;sessionGUID=60486026-b3b5-5ab8-4177-d7d4a0ebbbbc"> SIGN UP FOR EMAIL OFFERS &amp; EXCLUSIVE DEALS</a></span>
+</div>
+<div class="col-md-6" tabindex="0">
+<span>FREE SHIPPING ON ORDERS OVER $75 ENTER FS75 AT CHECKOUT </span>
+</div>
+      </div>
+<div class="evergage-event-banner-home" id="eg-a-spot"></div>
+
+
+
+
+
+
+
+
+
+
+ <div class="row landing-content landing-bg col-12-image text-center d-none d-md-block">
+	<a href="productsb8e4.html?BRANCH=351~515~7844~">
+		<img class="img-fluid" src="productimages/landing/home/20211115/a.jpg" alt="" title="SHOP NOW">
+	</a>
+	<div class="landing-text-overlay col-4 centered d-none d-md-block" style="left: 25%; top: 50%;">
+		<img class="img-fluid" src="productimages/landing/home/20211115/a-text.png" alt="">
+		
+		<p class="mt-2">Light up the season in glowy metallics and glimmering sequins galore.</p>
+		
+		<a href="productsb8e4.html?BRANCH=351~515~7844~" class="cta-underline ">SHOP THE COLLECTION</a>
+		
+		<a href="productsc6a5.html?BRANCH=7~72~" class="cta-underline ">SHOP DRESSES</a>
+		
+				
+	</div>
+</div>
+
+
+
+<div class="row landing-content landing-bg col-12-image text-center d-block d-md-none text-center">
+	
+	<a href="productsb8e4.html?BRANCH=351~515~7844~">
+		<img class="img-fluid" src="productimages/landing/home/20211115/a-mobile.jpg" alt="Shop now for Cover-Ups on home from VENUS." title="SHOP NOW">
+	</a>
+	
+			
+	<img class="img-fluid mt-2 mb-2" src="productimages/landing/home/20211115/a-text.png" alt="">
+	
+	<p>Light up the season in glowy metallics and glimmering sequins galore.</p>
+	
+		
+	<a href="productsb8e4.html?BRANCH=351~515~7844~" class="cta-underline ">SHOP THE COLLECTION</a>
+		
+		<a href="productsc6a5.html?BRANCH=7~72~" class="cta-underline ">SHOP DRESSES</a>
+		
+			
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+       <div class="row landing-content">
+	<div class="col-md-4 img-across">
+		<a href="products901f.html?BRANCH=7~73~" class="d-none d-md-block">
+			<img class="img-fluid lazyload" data-src="/productimages/landing/home/20211115/b1.jpg" alt="" title="SHOP NOW">
+		</a>
+		<a href="products901f.html?BRANCH=7~73~" class="d-block d-md-none">
+			<img class="img-fluid lazyload" data-src="/productimages/landing/home/20211115/b1-mobile.jpg" alt="" title="SHOP NOW">
+		</a>	
+	</div>
+	
+	
+    <div class="col-md-4 img-across">
+		<a href="products6500.html?BRANCH=7~63~" class="d-none d-md-block">
+			<img class="img-fluid lazyload" data-src="/productimages/landing/home/20211115/b2.jpg" alt="" title="SHOP NOW">
+		</a>
+		<a href="products6500.html?BRANCH=7~63~" class="d-block d-md-none">
+			<img class="img-fluid lazyload" data-src="/productimages/landing/home/20211115/b2-mobile.jpg" alt="" title="SHOP NOW">
+		</a>		
+	</div>
+	
+	
+	<div class="col-md-4 img-across">
+		<a href="products00cb.html?BRANCH=7~69~" class="d-none d-md-block">
+			<img class="img-fluid lazyload" data-src="/productimages/landing/home/20211115/b3-1.jpg" alt="" title="SHOP NOW">
+		</a>
+		<a href="products00cb.html?BRANCH=7~69~" class="d-block d-md-none">
+			<img class="img-fluid lazyload" data-src="/productimages/landing/home/20211115/b3-1-mobile.jpg" alt="" title="SHOP NOW">
+		</a>		
+	</div>
+</div>
+	
+	<div class="row landing-content text-center d-block">
+
+  <img class="img-fluid lazyload" data-src="/productimages/landing/home/20211115/b-text.png" alt="">
+		<p class="mt-2">Spice up your cold-weather wardrobe with festive holiday reds that make a fiery statement.</p>
+	  
+	   <a href="products901f.html?BRANCH=7~73~" class="cta-underline pr-md-3 d-md-inline">SHOP JACKETS</a> 
+	  
+	  <a href="products6500.html?BRANCH=7~63~" class="cta-underline pr-md-3 d-md-inline">SHOP TOPS</a> 
+	  
+	  <a href="products00cb.html?BRANCH=7~69~" class="cta-underline pr-md-3 d-md-inline">SHOP SWEATERS</a> 
+	  
+	  <a href="productsb8e4.html?BRANCH=351~515~7844~" class="cta-underline pr-md-3 d-md-inline">SHOP THE COLLECTION</a> 
+                   
+</div>
+	 
+
+
+
+
+
+
+
+
+ <div class="d-none d-md-flex">
+        <div class="col-12 p-0">
+       
+<a href="products4966.html?BRANCH=7~7467~">
+            <img class="img-fluid mt-2" src="productimages/landing/home/20211115/c.jpg" alt=""></a>
+        </div>
+        
+
+
+    </div>
+    <div class="p-4 text-center d-none d-md-block" style="color: white; width: 100%;margin-bottom: 10px;  background-color:#E1052B">
+        <img class="img-fluid mt-2 mb-2" src="productimages/landing/home/20211115/c-text.png" alt="">
+        <p>Check off your gift list with perfect presents for all the ladies in your life. </p>
+<div style="display:flex; place-content:center;" >
+        <a href="products0334.html?BRANCH=7~7467~7470~" class="cta-underline" style="color:white;">SHOP GIFTS $29 AND UNDER</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="products23bb.html?BRANCH=7~7467~7469~" class="cta-underline" style="color:white;">SHOP GIFTS $39 AND UNDER</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="productsc4e8.html?BRANCH=7~7467~7468~" class="cta-underline" style="color:white;">SHOP GIFTS $49 AND UNDER</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	
+	 <a href="products4966.html?BRANCH=7~7467~" class="cta-underline" style="color:white;">SHOP ALL HOLIDAY GIFTS</a>
+</div>
+    </div>
+
+</div>
+
+
+<div class="landing_container d-block d-md-none m-0">
+
+    <div class="" style="padding-bottom:0px;">
+       <a href="products4966.html?BRANCH=7~7467~"> <img class="img-fluid" src="productimages/landing/home/20211115/c.jpg" alt=""></a>
+    </div>
+    
+    <div class="text-center" style="padding: 8px; color:white; margin-bottom:15px;
+ background-color:#E1052B;">
+        <img class="img-fluid" src="productimages/landing/home/20211115/b-text.png" alt="">
+        <p>Check off your gift list with perfect presents for all the ladies in your life. </p>
+<div style="">
+        <a style="color:white;" href="products0334.html?BRANCH=7~7467~7470~" class="cta-underline">SHOP GIFTS $29 AND UNDER</a> 
+        <a style="color:white;" href="products23bb.html?BRANCH=7~7467~7469~" class="cta-underline">SHOP GIFTS $39 AND UNDER</a> 
+        <a style="color:white;" href="productsc4e8.html?BRANCH=7~7467~7468~" class="cta-underline">SHOP GIFTS $49 AND UNDER</a>	
+	<a href="products4966.html?BRANCH=7~7467~" class="cta-underline" style="color:white;">SHOP ALL HOLIDAY GIFTS</a>
+</div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+      <div class="evergage-homepage-recs"></div>
+
+
+
+
+
+
+
+        <div class="row landing-content landing-bg col-12-image text-center d-none d-md-block">
+	<a href="productseb53.html?BRANCH=351~515~7851~">
+		<img class="img-fluid" src="productimages/landing/home/20211115/d1.jpg" alt="" title="SHOP NOW">
+	</a>
+	<div class="landing-text-overlay col-4 centered d-none d-md-block" style="left: 75%; top: 78%;">
+		<img class="img-fluid" src="productimages/landing/home/20211115/d-text.png" alt="">
+		
+		<p class="mt-2">Make 'em blush in the rosy hue that promises a sweet <br> and feminine look.</p>
+		
+		<a href="errors/4040b11.html?BRANCH=7~2999~" class="cta-underline ">SHOP JEANS</a>
+		
+		<a href="productseb53.html?BRANCH=351~515~7851~" class="cta-underline ">SHOP THE COLLECTION</a>
+		
+		
+		
+				
+	</div>
+</div>
+
+
+
+<div class="row landing-content landing-bg col-12-image text-center d-block d-md-none text-center">
+	
+	<a href="productseb53.html?BRANCH=351~515~7851~">
+		<img class="img-fluid" src="productimages/landing/home/20211115/d1-mobile.jpg" alt="Shop now for Cover-Ups on home from VENUS." title="SHOP NOW">
+	</a>
+	
+			
+	<img class="img-fluid mt-2 mb-2" src="productimages/landing/home/20211115/d-text.png" alt="">
+	
+	<p>Make 'em blush in the rosy hue that promises a sweet and feminine look.</p>
+	
+	
+	<a href="errors/4040b11.html?BRANCH=7~2999~" class="cta-underline ">SHOP JEANS</a>	
+		
+	<a href="productseb53.html?BRANCH=351~515~7851~" class="cta-underline ">SHOP THE COLLECTION</a>
+		
+		
+			
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="row landing-content landing-bg col-12-image text-center d-none d-md-block">
+	
+  <a href="productscea2.html?BRANCH=7~164~">
+		<img class="img-fluid" src="productimages/landing/home/20211115/e.jpg" alt="" title="SHOP NOW"> </a> 
+	
+	
+</div>
+
+
+  <div class="row landing-content d-block d-md-none">
+	  
+	<a href="productscea2.html?BRANCH=7~164~">
+		
+		<img class="img-fluid" src="productimages/landing/home/20211115/e-mobile.jpg" alt="" title="SHOP NOW"></a>
+	  
+	  
+	  
+	  </div>
+
+</div>
+
+  <div class="row landing-content text-center d-block">
+
+  <img class="img-fluid" src="productimages/landing/home/20211115/e-text.png" alt="">
+		<p class="mt-2">Cozying up by the fire just got a whole lot prettier.</p>
+	  
+	   <a href="productscea2.html?BRANCH=7~164~" class="cta-underline pr-md-3 d-md-inline">SHOP LOUNGEWEAR</a> 
+	  
+	  
+		     
+                   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ig_banner">
+        <a manual_cm_re="home-image" href="instagram/default.html" style="">
+            <img class="d-desktop-only-block" src="productimages/banners/Instagram/20200206/DESKTOP-970X100-Social.jpg" alt="Shop and show off what you wear. Share your #VENUSFASHION and shop our instagram!">
+            <img class="d-mobile-only-block" src="productimages/banners/Instagram/20200206/Social_M_Banner.jpg" alt="Shop and show off what you wear. Share your #VENUSFASHION and shop our instagram!">
+        </a>
+    </div>
+
+    <div class="home_landing">
+        <script src="../foursixty.com/media/scripts/fs.embed.v2.5.js" data-track-link-performance="false" data-feed-id="venus-fashion-inc" data-theme="sizes_v2_5" data-page-size="7"></script><div id="fs_536714" style="" class="fs-normal-timeline fs-desktop fs-wrapper fs-sizes_v2_5">   <div id="fs-timeline-536714" class="fs-timeline">        </div>      <div class="branding-separator"></div>      <div id="fs-next-page-536714" class="fs-next-page fs-hidden" tabindex="0" style="visibility: hidden;">     <div class="fs-next-button">       <svg class="fs-next-svg" width="30" height="30" xmlns="https://www.w3.org/2000/svg" xmlns:svg="https://www.w3.org/2000/svg"><g id="layer1" stroke-width="2px" fill="none"><path d="m15,0l0,30"></path><path d="m0,15l30,0"></path></g></svg>     </div>   </div> </div>
+        <style>
+            .fs-has-links::after {
+                padding: 9px 13.5px;
+                border: 2px solid rgb(255, 255, 255);
+                color: rgb(255, 255, 255);
+                content: "SHOP THE LOOK";
+            }
+
+            .fs-has-links:hover:after {
+                background-color: rgb(255, 255, 255);
+                color: rgba(0, 0, 0, 0.65)
+            }
+
+            .fs-wrapper div.fs-text-container .fs-entry-title, div.fs-detail-title {
+                font-family: 'HKGroteskRegular';
+                font-size: 12px;
+                ;
+                font-style: normal;
+                font-weight: normal;
+            }
+
+            div.fs-text-container .fs-entry-date, div.fs-detail-container .fs-post-info, div.fs-wrapper div.fs-has-links::after, .fs-text-product, .fs-overlink-text {
+                font-family: 'VenusFashion';
+                font-size: 14px;
+                ;
+                font-style: normal;
+                font-weight: normal;
+            }
+
+            .fs-wrapper div.fs-text-container * {
+                color: rgb(255, 255, 255)
+            }
+
+            .fs-wrapper div.fs-text-container {
+                background-color: rgba(0, 0, 0, 0.65);
+                margin: 0px
+            }
+
+            div.fs-entry-date {
+                display: none
+            }
+
+            div.fs-entry-title {
+                display: none
+            }
+
+            .fs-wrapper div.fs-timeline-entry {
+                margin: 9px
+            }
+
+            .fs-mobile .fs-next-button, .fs-desktop .fs-next-button {
+                display: block;
+            }
+
+            .fs-overlink {
+                display: none !important;
+            }
+        </style>
+    </div>
+
+</div>
+</div>
+        </div>
+    </div>
+
+                    
+
+                    
+
+                
+
+            </div>
+
+            
+                <div id="footerdiv" class="footerdiv">
+                    
+    <div class="home-footertext-row-div">
+        <div class="home-footertext-col-div">
+            <h1>Feel Confident With VENUS</h1>  <p>Fashion is about more than just the <a href="clothing.html">clothes</a> you wear from day-to-day. Fashion is self-expression that allows you to tell the world who you are and what you stand for. More importantly, what you wear can affect how you feel about yourself, so it’s important to wear something that you absolutely love. </p>  <p>You want to look your best, and the women’s fashion options from VENUS are a great place to start. </p>  <h2>Unique Clothing for Your Everyday Life</h2>  <p>No matter what your personal style is, there are flattering outfits that you’re sure to feel good in. Go for a comfortable, classy jumpsuit or a classic professional pantsuit to wear to the office. When the weekend rolls around, go for some more casual looks with jeans, rompers, shorts, skirts, <a href="productsc6a5.html?BRANCH=7~72~">dresses</a>, and a variety of different tops. </p>  <p>When it’s cold outside, you can find coats and jackets ranging from hoodies and bomber jackets to trench coats and faux fur. Cardigans and sweaters are also an option, offering off-the-shoulder designs, lacing, crochet, and eye-catching cutouts.</p>  <p>Loungewear and activewear, like hoodies and tracksuits, are great for comfy days in or for days when you’re headed out for a jog, to the gym, or to run some weekend errands. You can get even more comfortable with cute and cozy pajama sets and nightgowns to wear to bed. </p>  <h2>Accessories and Jewelry</h2>  <p>A great outfit isn’t just about the clothes, though. You can take your outfit up a notch with stylish <a href="productsa53a.html?BRANCH=7~77~">accessories</a> to tie it all together. Belts allow you to take command of your silhouette and alter the shape of your dresses and tops by cinching in the waist, hip, or underbust. They can also add an accent color to an outfit that you can then match with a handbag, tote or clutch. Throw on a pair of cool shades and a hat in the summer or a scarf and gloves to keep warm in the winter to complete the look. </p>  <p>You can dress up any outfit with unique jewelry pieces. From fringe earrings in bright, funky colors to chunky bangles and stylish chokers, there’s plenty of fashionable pieces to make your outfit 100% your own. Finish your look off with a comfortable pair of boots or wedges or a sexy pair of heels.</p>  <h2>Fun and Functional Swimwear and Beachwear</h2>  <p>Just because you’re on vacation doesn’t mean you can’t still dress to impress. You can build cute casual outfits to wear to the beach or the pool with fun swimwear and beachwear. Build the base of your outfit with a classic one-piece or show some skin with a sexy monokini. If you’re more comfortable in a two-piece, you can mix and match your tops and bottoms for a truly customized look. Choose from a halter top, a bandeau, or a push-up bikini top and then pair it with some cheeky bottoms or a high-waisted bottom – whatever makes you feel most comfortable. Add a lightweight cover-up for some shopping or dining on your vacation, whether you prefer a long, flowy dress, a kimono top, or a romper or jumpsuit.</p>  <h2> Look Good Under Your Clothes With Lingerie</h2>  <p>A cute bra and a good pair of undies can boost your confidence and make you feel sexy and empowered. Whether you prefer the support of a structured push-up or the freedom of a comfy bralette, there’s a perfect <a href="products00ab.html?BRANCH=129~5334~">bra</a> out there for you. You can even show it off a little with a plunging neckline or a backless dress. </p>  <p>Everyone’s got their favorite style of underwear. Bikini, thong, hipster, and boyshort styles are all fabulous choices offered in lace, nylon, spandex and cotton blends for a snug but comfortable fit. The right underwear can help your whole outfit look better too. Shapewear allows you to perfect your silhouette and accentuate your curves in all the right places. It can smooth out the look of tight-fitting dresses.</p>  <p>Not sure about sizing? No worries. We’ve got a helpful lingerie sizing guide to help you find the perfect fit for your body.</p>  <h2>Try Out Trending Styles</h2>  <p>Keeping up with all of the trends that hit women’s clothing stores can be intimidating, but we can help. Take a look at our <a href="collections/default.html">trends page</a>, where you can get updates on what’s in and now. You can quickly and easily find clothing pieces that are in this season, so you can keep up-to-date without any effort. </p>  <p>Online shopping for women makes fashion easy. Check out the trendy, stylish pieces here on VENUS, and find clothes that you truly love.</p> 
+        </div>
+    </div>
+
+                </div>
+            
+        </div>
+    
+	</div>
+
+</div>
+
+
+
+
+        <footer role="contentinfo">
+            <div id="ctl00_footercontainer">
+                
+
+
+
+
+
+<div class="footer-sms-wrapper-div">
+    <div class="footer-sms-container-div">
+        <div class="footer-sms-row-div">
+            <div class="footer-sms-col-div">
+                <style type="text/css">     .footer-sms-disclaimer-span {         display: block;         font-size: 12.8px;         font-weight: 400;     } </style>   <p>Sign Up For VENUS Text Alerts!<br><span class="footer-sms-disclaimer-span py-2">By signing up via text, you agree to receive recurring automated promotional and personalized marketing text messages (e.g. cart reminders) from Venus at the cell number used when signing up. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Msg frequency varies. Msg & data rates may apply. View Terms & Privacy.</span>Text STYLE to 39512</p>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="footer-email-wrapper-div">
+    <div class="footer-email-container-div">
+        <div class="footer-email-row-div">
+            <div class="footer-email-left-col-div">
+                <span class="footer-emailsignupheading1-span">Be the First to Know</span>
+                <span class="footer-emailsignupheading2-span">Sign up for exclusive offers, style updates and more!</span>
+            </div>
+            <div class="footer-email-right-col-div">
+                <div class="footer-emailfield-div"> 
+                    <input name="ctl00$FooterMain1$ctl00" class="footer-emailautocomplete-inputtext form-control" type="email" placeholder="Email Address" aria-label="Be the first to know.  Enter your email to sign up for exclusive offers, style updates, and more." />
+                    <span class="footer-emailerror-span invalid-feedback">Please Enter an email address</span>
+                </div>
+                <div class="footer-emailbutton-div">
+                    <input type="button" value="Sign Up" class="footer-emailsignup-inputbutton btn btn-primary" onclick="javascript: ValidateSendFooterEmail();"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="footer-desktoplinks-wrapper-div">
+    <div class="footer-desktoplinks-container-div">
+        <div class="footer-desktoplinks-row-div">
+            <div class="footer-desktoplinks-col-div">
+                <ul class="footer-desktoplinks-ul">
+                    <li class="footer-desktopheader-li" aria-hidden="true">Help</li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="customerservice.html" aria-label="Customer Care">Customer Care</a></li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="https://venus.letslinc.com/order_locator?shop_id=1539d4b0-f77b-11e4-99bf-22000a912867&amp;iframe=0&amp;instructions=1&amp;v=returns" aria-label="Track My Order">Track My Order</a></li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="secure/loginb4f2.html" aria-label="Order Status">Order Status</a></li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="sizechart.html" aria-label="Size Info">Size Info</a></li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="faq.html#shipping" aria-label="Shipping Info">Shipping Info</a></li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="faq.html#returns" aria-label="Return Policy">Return Policy</a></li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="accessibility.html" aria-label="Accessibility">Accessibility</a></li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="contact.html" aria-label="Contact Us">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-desktoplinks-col-div">
+                <ul class="footer-desktoplinks-ul">
+                    <li class="footer-desktopheader-li" aria-hidden="true">Explore</li>
+                    <li id="ctl00_FooterMain1_liFooterDesktopCredit" class="footer-link-li"><a class="footer-link-a" href='Venus-Card/Default.html' aria-label="Venus Card">VENUS Card</a></li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="secure/giftCard.html" aria-label="Gift Cards">Gift Cards</a></li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="secure/catalogrequest.html" aria-label="Request a Catalog">Request a Catalog</a></li>
+                </ul>
+            </div>
+            <div class="footer-desktoplinks-col-div">
+                <ul class="footer-desktoplinks-ul">
+                    <li class="footer-desktopheader-li" aria-hidden="true">Who We Are</li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="about.html" aria-label="About Us">About Us</a></li>
+                    <li class="footer-link-li"><a class="footer-link-a" href="https://workforcenow.adp.com/jobs/apply/posting.html?client=Venus1&amp;ccId=19000101_000001&amp;type=MP&amp;lang=en_US" aria-label="Careers">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-desktoplinks-col-div footer-desktoplinks-col-div-followus">
+                <div class="footer-columncontent-div">
+                    <ul class="footer-desktoplinks-ul">
+                        <li class="footer-desktopheader-li" aria-hidden="true">Follow Us</li>
+                    </ul>
+                    
+
+<div class="social-control-div">
+    <ul class="social-medias-ul">
+        <li class="social-media-li social-media-li-instagram"><a class="social-media-a social-media-a-instagram" target="_blank" rel="noopener" aria-label="Follow us on Instagram" href="https://www.instagram.com/venus/"><img class="social-media-img social-media-img-instagram" src="assets/footer/icon-social-instagram.svg" alt="Instagram" /></a></li>
+        <li class="social-media-li social-media-li-facebook"><a class="social-media-a social-media-a-facebook" target="_blank" rel="noopener" aria-label="Follow us on Facebook" href="https://www.facebook.com/VENUS"><img class="social-media-img social-media-img-facebook" src="assets/footer/icon-social-facebook.svg" alt="Facebook" /></a></li>
+        <li class="social-media-li social-media-li-pinterest"><a class="social-media-a social-media-a-pinterest" target="_blank" rel="noopener" aria-label="Follow us on Pinterest" href="https://www.pinterest.com/venusfashions/"><img class="social-media-img social-media-img-pinterest" src="assets/footer/icon-social-pinterest-p.svg" alt="Pinterest" /></a></li>
+        <li class="social-media-li social-media-li-twitter"><a class="social-media-a social-media-a-twitter" target="_blank" rel="noopener" aria-label="Follow us on Twitter" href="https://twitter.com/venusswimwear"><img class="social-media-img social-media-img-twitter" src="assets/footer/icon-social-twitter.svg" alt="Twitter" /></a></li>
+        <li class="social-media-li social-media-li-youtube"><a class="social-media-a social-media-a-youtube" target="_blank" rel="noopener" aria-label="Follow us on youtube" href="https://www.youtube.com/user/VenusSwimwear"><img class="social-media-img social-media-img-youtube" src="assets/footer/icon-social-youtube.svg" alt="youtube" /></a></li>
+    </ul>
+    <ul class="social-apps-ul">
+        <li class="social-app-li social-app-li-google"><a class="social-app-a social-app-a-google" aria-label="Download the Venus App from the Google Play Store" href="https://app.adjust.com/xrktid"><img class="social-app-img social-app-img-google" src="assets/footer/badge-google-play.svg" alt="Google Play Store"></a></li>
+        <li class="social-app-li social-app-li-apple"><a class="social-app-a social-app-a-apple" aria-label="Download the Venus App from the Apple App Store" href="https://app.adjust.com/xrktid"><img class="social-app-img social-app-img-apple" src="assets/footer/badge-app-store.svg" alt="Apple App Store"></a></li>
+    </ul>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-mobilelinks-wrapper-div">
+    <div class="footer-mobilelinks-container-div">
+        <div class="footer-mobilelinks-row-div">
+            <div class="footer-mobilelinks-col-div">
+                <div id="divFooterAccordion" class="footer-accordion-div">
+                    <div class="footer-pane-div footer-pane-div-expandable">
+                        <div id="divFooterAccordionHelpHeading" class="footer-paneheading-div">
+                            <h5 class="footer-paneheading-h5">
+                                <button class="footer-paneheading-button btn btn-link collapsed" data-toggle="collapse" data-target="#divFooterAccordionHelpDetail" aria-expanded="false" aria-controls="divFooterAccordionHelpDetail" onclick="return false;">
+                                    Help
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="divFooterAccordionHelpDetail" class="footer-panedetail-div footer-panedetailhelp-div collapse" aria-labelledby="divFooterAccordionHelpHeading" data-parent="#divFooterAccordion">
+                            <ul class="footer-mobilelinks-ul">
+                                <li class="footer-link-li"><a class="footer-link-a" href="customerservice.html" aria-label="Customer Care">Customer Care</a></li>
+                                <li class="footer-link-li"><a class="footer-link-a" href="https://venus.letslinc.com/order_locator?shop_id=1539d4b0-f77b-11e4-99bf-22000a912867&amp;iframe=0&amp;instructions=1&amp;v=returns" aria-label="Track My Order">Track My Order</a></li>
+                                <li class="footer-link-li"><a class="footer-link-a" href="secure/loginb4f2.html" aria-label="Order Status">Order Status</a></li>
+                                <li class="footer-link-li"><a class="footer-link-a" href="sizechart.html" aria-label="Size Info">Size Info</a></li>
+                                <li class="footer-link-li"><a class="footer-link-a" href="faq.html#shipping" aria-label="Shipping Info">Shipping Info</a></li>
+                                <li class="footer-link-li"><a class="footer-link-a" href="faq.html#returns" aria-label="Return Policy">Return Policy</a></li>
+                                <li class="footer-link-li"><a class="footer-link-a" href="accessibility.html" aria-label="Accessibility">Accessibility</a></li>
+                                <li class="footer-link-li"><a class="footer-link-a" href="contact.html" aria-label="Contact Us">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-pane-div footer-pane-div-expandable">
+                        <div id="divFooterAccordionExploreHeading" class="footer-paneheading-div">
+                            <h5 class="footer-paneheading-h5">
+                                <button class="footer-paneheading-button btn btn-link collapsed" data-toggle="collapse" data-target="#divFooterAccordionExploreDetail" aria-expanded="false" aria-controls="divFooterAccordionExploreDetail" onclick="return false;">
+                                    Explore
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="divFooterAccordionExploreDetail" class="footer-panedetail-div footer-panedetailexplore-div collapse" aria-labelledby="divFooterAccordionExploreHeading" data-parent="#divFooterAccordion">
+                            <ul class="footer-mobilelinks-ul">
+                                <li id="ctl00_FooterMain1_liFooterMobileCredit" class="footer-link-li"><a href='Venus-Card/Default.html' aria-label="Venus Card">VENUS Card</a></li>
+                                <li class="footer-link-li"><a class="footer-link-a" href="secure/giftCard.html" aria-label="Gift Cards">Gift Cards</a></li>
+                                <li class="footer-link-li"><a class="footer-link-a" href="secure/catalogrequest.html" aria-label="Request a Catalog">Request a Catalog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-pane-div footer-pane-div-expandable">
+                        <div id="divFooterAccordionWhoWeAreHeading" class="footer-paneheading-div">
+                            <h5 class="footer-paneheading-h5">
+                                <button class="footer-paneheading-button btn btn-link collapsed" data-toggle="collapse" data-target="#divFooterAccordionWhoWeAreDetail" aria-expanded="false" aria-controls="divFooterAccordionWhoWeAreDetail" onclick="return false;">
+                                    Who We Are
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="divFooterAccordionWhoWeAreDetail" class="footer-panedetail-div footer-panedetailwhoweare-div collapse" aria-labelledby="divFooterAccordionWhoWeAreHeading" data-parent="#divFooterAccordion">
+                            <ul class="footer-mobilelinks-ul">
+                                <li class="footer-link-li"><a class="footer-link-a" href="about.html" aria-label="About Us">About Us</a></li>
+                                <li class="footer-link-li"><a class="footer-link-a" href="https://workforcenow.adp.com/jobs/apply/posting.html?client=Venus1&amp;ccId=19000101_000001&amp;type=MP&amp;lang=en_US" aria-label="Careers">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-pane-div footer-pane-div-noexpandable">
+                        <div id="divFooterAccordionFollowUsHeading" class="footer-paneheading-div">
+                            <h5 class="footer-paneheading-h5">Follow Us</h5>
+                        </div>
+                        <div id="divFooterAccordionFollowUsDetail" class="footer-panedetail-div" aria-labelledby="divFooterAccordionFollowUsHeading">
+                            
+
+<div class="social-control-div">
+    <ul class="social-medias-ul">
+        <li class="social-media-li social-media-li-instagram"><a class="social-media-a social-media-a-instagram" target="_blank" rel="noopener" aria-label="Follow us on Instagram" href="https://www.instagram.com/venus/"><img class="social-media-img social-media-img-instagram" src="assets/footer/icon-social-instagram.svg" alt="Instagram" /></a></li>
+        <li class="social-media-li social-media-li-facebook"><a class="social-media-a social-media-a-facebook" target="_blank" rel="noopener" aria-label="Follow us on Facebook" href="https://www.facebook.com/VENUS"><img class="social-media-img social-media-img-facebook" src="assets/footer/icon-social-facebook.svg" alt="Facebook" /></a></li>
+        <li class="social-media-li social-media-li-pinterest"><a class="social-media-a social-media-a-pinterest" target="_blank" rel="noopener" aria-label="Follow us on Pinterest" href="https://www.pinterest.com/venusfashions/"><img class="social-media-img social-media-img-pinterest" src="assets/footer/icon-social-pinterest-p.svg" alt="Pinterest" /></a></li>
+        <li class="social-media-li social-media-li-twitter"><a class="social-media-a social-media-a-twitter" target="_blank" rel="noopener" aria-label="Follow us on Twitter" href="https://twitter.com/venusswimwear"><img class="social-media-img social-media-img-twitter" src="assets/footer/icon-social-twitter.svg" alt="Twitter" /></a></li>
+        <li class="social-media-li social-media-li-youtube"><a class="social-media-a social-media-a-youtube" target="_blank" rel="noopener" aria-label="Follow us on youtube" href="https://www.youtube.com/user/VenusSwimwear"><img class="social-media-img social-media-img-youtube" src="assets/footer/icon-social-youtube.svg" alt="youtube" /></a></li>
+    </ul>
+    <ul class="social-apps-ul">
+        <li class="social-app-li social-app-li-google"><a class="social-app-a social-app-a-google" aria-label="Download the Venus App from the Google Play Store" href="https://app.adjust.com/xrktid"><img class="social-app-img social-app-img-google" src="assets/footer/badge-google-play.svg" alt="Google Play Store"></a></li>
+        <li class="social-app-li social-app-li-apple"><a class="social-app-a social-app-a-apple" aria-label="Download the Venus App from the Apple App Store" href="https://app.adjust.com/xrktid"><img class="social-app-img social-app-img-apple" src="assets/footer/badge-app-store.svg" alt="Apple App Store"></a></li>
+    </ul>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-policies-wrapper-div">
+    <div class="footer-policies-container-div">
+        <div class="footer-policies-row-div">
+            <div class="footer-policies-col-div">
+                <a class="footer-policy-a footer-policy-a-privacy" href="privacy.html" aria-label="Privacy Policy">Privacy Policy</a>
+                <a class="footer-policy-a footer-policy-a-termsofuse" href="termsofuse.html" aria-label="Terms of Use">Terms of Use</a>
+                <a class="footer-policy-a footer-policy-a-sitemap" href="sitemap.html" aria-label="Site Map">Site Map</a>
+                
+                
+                <a class="footer-policy-a footer-policy-a-privacy" href="privacy.html#ccpa" aria-label="California - Do Not Sell My Personal Info">California - Do Not Sell My Personal Info</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-legal-wrapper-div">
+    <div class="footer-legal-container-div">
+        <div class="footer-legal-row-div">
+            <div class="footer-legal-col-div">
+                <div class="footer-legal-copy-div" tabindex="0">
+                    &copy;2021 Venus Fashion, Inc. All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="includes/scripts/jquery/jquery.emailautocomplete.min.js"></script>
+<script type="text/javascript">
+    function ValidateSendFooterEmail() {
+        var footerValidationPassed = false;
+        var footerEmail = $(".footer-emailautocomplete-inputtext");
+        var footerEmailLabel = $(".footer-emailerror-span");
+
+        footerValidationPassed = ValidateEmail(footerEmail.val());
+
+        
+        if (!footerValidationPassed) {
+            footerEmailLabel.show().text("Please enter a valid email address");
+            footerEmail.addClass("is-invalid");
+        } else {
+            footerEmailLabel.hide().text("");
+            footerEmail.removeClass("is-invalid");
+
+            window.location = 'https://www.venus.com/emailupdates.aspx?oemailin=' + escape(obfuscateValue(footerEmail.val()));
+        }
+    }
+
+    var input = $(".footer-emailautocomplete-inputtext");
+
+    $(document).ready(function () {
+        $(input).keydown(function (e) {
+            if (e.which == 13 || e.keyCode == 13) {
+                e.preventDefault();
+                ValidateSendFooterEmail();
+            }
+        });
+    });
+
+    $(function () {
+        input.emailautocomplete({
+            domains: [
+                "adelphia.net",
+                "aim.com",
+                "ameritech.net",
+                "aol.com",
+                "atlanticbb.net",
+                "att.net",
+                "bell.net",
+                "bellsouth.net",
+                "bresnan.net",
+                "cableone.net",
+                "carolina.rr.com",
+                "centurylink.net",
+                "centurytel.net",
+                "cfl.rr.com",
+                "charter.net",
+                "cinci.rr.com",
+                "cogeco.ca",
+                "columbus.rr.com",
+                "comcast.net",
+                "cox.net",
+                "cs.com",
+                "earthlink.net",
+                "eastlink.ca",
+                "embarqmail.com",
+                "epix.net",
+                "excite.com",
+                "frontier.com",
+                "frontiernet.net",
+                "fuse.net",
+                "gmail.com",
+                "hotmail.ca",
+                "hotmail.co.uk",
+                "hotmail.com",
+                "hotmail.fr",
+                "hughes.net",
+                "icloud.com",
+                "insightbb.com",
+                "juno.com",
+                "live.ca",
+                "live.com",
+                "mac.com",
+                "mail.com",
+                "mail.ru",
+                "mchsi.com",
+                "me.com",
+                "mindspring.com",
+                "msn.com",
+                "mts.net",
+                "myfairpoint.net",
+                "mymts.net",
+                "nc.rr.com",
+                "neo.rr.com",
+                "netscape.net",
+                "netzero.com",
+                "netzero.net",
+                "new.rr.com",
+                "nycap.rr.com",
+                "optimum.net",
+                "optonline.net",
+                "outlook.com",
+                "pacbell.net",
+                "prodigy.net",
+                "ptd.net",
+                "q.com",
+                "rcn.com",
+                "roadrunner.com",
+                "rochester.rr.com",
+                "rocketmail.com",
+                "rogers.com",
+                "sasktel.net",
+                "sbcglobal.net",
+                "sc.rr.com",
+                "shaw.ca",
+                "snet.net",
+                "stny.rr.com",
+                "suddenlink.net",
+                "swbell.net",
+                "sympatico.ca",
+                "tampabay.rr.com",
+                "tds.net",
+                "telus.net",
+                "telusplanet.net",
+                "triad.rr.com",
+                "twc.com",
+                "twcny.rr.com",
+                "va.gov",
+                "videotron.ca",
+                "wi.rr.com",
+                "wildblue.net",
+                "windstream.net",
+                "woh.rr.com",
+                "wowway.com",
+                "yahoo.ca",
+                "yahoo.co.uk",
+                "yahoo.com",
+                "yahoo.es",
+                "yahoo.fr",
+                "ymail.com",
+                "zoominternet.net"
+            ]
+
+        });
+    });
+
+</script>
+
+     
+
+
+
+
+            </div>
+        </footer>
+    
+
+
+<input type="hidden" name="ctl00$env" id="env" value="venusweb2" />
+
+        <script type="text/javascript" src="includes/scripts/Airship/Airship_Snippet-A1B2EF9498351070D5522FC0DB9CA56F.js"></script>
+    
+
+
+    <script type="text/javascript">
+        window.hc_tm = window.hc_tm || [];
+        window.hc_tm.push({
+            'e': 'track',
+            'p': {
+                'page_type': 'home',
+                'test_group': 'a',
+                'shop_version': 'Desktop',
+                'hid': ''
+            }
+        });
+
+        
+        $(".airship-ad-div .headerad-close-button").on("click.airShip",
+            function () {
+                var date = new Date();
+                date.setTime(date.getTime() + (30 * 60000));
+                document.cookie = "AirshipOptInClosed=True; expires=" + date.toUTCString();
+                
+            });
+
+        if (window.UA) {
+            window.UA.then(function (sdk) {
+                $(".airship-ad-div .headerad-message-a").on("click.airShip", function () {
+                    sdk.register();
+                });
+                
+                $(".airship-ad-div").show();
+                
+            });
+        }
+
+        lincChatParams = {
+            shopperEmail:
+                "",
+            shopperEmailHash:
+                "",
+            "pageContext": {
+                "pageCategory": "home"
+            }
+        }
+
+        $(document).ready(function () {
+            generateReadMoreButton($('.home-footertext-col-div'));
+        });
+    </script>
+    <script type="text/javascript" src="scripts/chatbot-68F81F076E3D42DF513A9D83FC97F69F.js"></script>
+    <script type="text/javascript" src="scripts/showMore-661FC9EFEC927737C8E504DA1F8FB187.js"></script>
+    <script type="text/javascript" async src="hc_scripts/oti5d1a.js?cid=4325&amp;skip_track=1"></script>
+
+
+
+
+
+
+
+<span id="ctl00_lblkiosk"></span>
+<div>
+    <input id="deviceCode" type="hidden" value=""/>
+    <input id="breadcrumbsText" type="hidden" value=""/>
+    <input id="siteVersion" type="hidden" value="A"/>
+    <input id="hidPageSpecificProtocol" type="hidden" value="http:"/>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+cartcountid='ctl00_lblheadercart';cartcountid='ctl00_lblheadercartmobile';
+    function submitsearch() {if ( getElement('searchterm_desktop').value != '' ) { window.location.href=('https://www.venus.com/search.aspx?searchterm='+escape(getElement('searchterm_desktop').value)+'&sgUsed='+eval(sgUsed)); } }
+    function submitsearchmobile() {if ( getElement('searchterm_mobile').value != '' ) { window.location.href=('https://www.venus.com/search.aspx?searchterm='+escape(getElement('searchterm_mobile').value)+'&sgUsed='+eval(sgUsed)); } }//]]>
+</script>
+</form>
+<!--Silverpop tracking -->
+<script src="../www.sc.pages02.net/lp/static/js/iMAWebCookiedcc7.js?4c864741-1542bce94bc-df4cba773885eb54dfcebd294a039c37&amp;h=www.pages02.net" type="text/javascript"></script>
+
+
+<!-- hurrah -->
+
+
+
+<script type="text/javascript">
+    var siteVersion = getElement('siteVersion').value.toLowerCase();
+    var deviceCode = getElement('deviceCode').value.toLowerCase();
+    var breadcrumbsText = getElement('breadcrumbsText').value.toLowerCase();
+</script>
+<!-- END hurrah -->
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        CookieConsent.init({
+            consentMessage: 'This website stores cookies on your computer. These cookies are used to collect information about how you interact with our website which we use to improve and customize your experience as well as for analytic and marketing purposes. To find out more about the cookies we use and how to change your cookie settings, see our <a href="/privacy.aspx" target="_blank" class="cookie-consent-banner__privacy-link">Privacy Policy</a>. By continuing to use this site without changing your settings, you consent to our use of cookies.'
+        });
+        var currentUrl = window.location.href;
+        //fix to highlight current url
+        $(".menu-title[href='" + currentUrl + "']").addClass("hover");
+        //fix to move submenus in IE 9 or greater
+        $(".menu-title[href*='favorites'], .menu-title[href*='newarrivals']").hover(function() {
+            var thisLeft = $(this).position().left;
+            $(this).siblings(".submenu").css("left", thisLeft + "px");
+        });
+
+        if (scriptName === "/secure/checkout_receipt.aspx") {
+            ewt.cot({ action: "order", detail: owaParams.product_id, amount: owaParams.amount });
+        }
+
+        $(".header-desktopaccount-a").click(function() {
+            $(".header-desktopaccountmenu-div").toggle();
+            return false;
+        });
+
+        $(".msidebar-account-a").click(function() {
+            $(".msidebar-accountmenu-div").toggle();
+            $(".msidebar-account-a").toggleClass("active");
+            return false;
+        });
+
+        $(".header-mobilelink-a-account-loggedin").click(function() {
+            $(".header-mobileaccountmenu-div").toggle();
+            return false;
+        });
+
+        $(".header-desktopaccountmenu-div").mouseleave(function() {
+            $('.header-desktopaccountmenu-div').css("display", "none");
+        });
+
+        $('a[href="#"]').click(function(e) {
+            e.preventDefault ? e.preventDefault() : e.returnValue = false;
+        });
+
+    });
+
+    function popitup(url, e) {
+        if (e) {
+            e.preventDefault();
+        }
+
+        var newwindow = window.open(url, 'name', 'heightheader-menuheader-menu=640,width=660');
+
+        if (window.focus) {
+            newwindow.focus();
+        }
+        return false;
+    }
+</script>
+
+<script src="scripts/search-919A5821BC1EFA5F5D20193FB5903F18.js"></script>
+<script src="includes/scripts/combined.min-B3727A54F7A34CECBE4A4BC90D02C0B2.js"></script>
+<script src="includes/scripts/js.cookie-2.2.1.min-8E5BFD2E9D5070899150B900A3F7BA6D.js"></script>
+<script src="scripts/cookieConsent-553981C5CBCCC05C221FA55C46C69B5A.js"></script>
+<script src="scripts/lib/popper.min-9CF9DD806E5CB91F6BC263357B616607.js"></script>
+<script src="scripts/lib/bootstrap.min-457B472552EF51BE55F9536689AEB43C.js"></script>
+
+</body>
+
+<!-- Mirrored from www.venus.com/default.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 Nov 2021 23:46:59 GMT -->
+</html>
